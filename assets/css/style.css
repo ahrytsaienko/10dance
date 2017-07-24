@@ -1,0 +1,65 @@
+html, body {
+	height: 100%;	
+}
+
+.navbar-inverse {
+    background-color: #ba9191;
+    border: none;
+}
+
+.nav-pills>li>a:hover {
+	color: #fff;
+	background-color: #346270;
+    transition: background-color 0.3s;
+}
+
+.header {
+    padding: 1%;
+}
+
+footer {
+    height: 100%;
+    color: #666;
+	background-color: #e2d6d6;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.clear {
+	clear: both;
+	height: 63px;
+}
+
+.nav li {
+    color: aqua;
+    background-color: #ba9191;
+}
+
+.social-links {
+    list-style: none;
+    float: right;
+}
+
+/* --------------------------------------- XS screens ----------------------------------------*/
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+}	
+
+	.nav-pills {
+		text-align: center;	
+}	
+	.header h1 {
+		letter-spacing: 5px;
+		font-size: 280%;
+	}
+
+	.header {
+		text-align: center;	
+	}
+}
