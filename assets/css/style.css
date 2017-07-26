@@ -1,5 +1,6 @@
-html, body {
-	height: 100%;	
+html,
+body {
+    height: 100%;
 }
 
 .navbar-inverse {
@@ -8,8 +9,8 @@ html, body {
 }
 
 .nav-pills>li>a:hover {
-	color: #fff;
-	background-color: #346270;
+    color: #fff;
+    background-color: #346270;
     transition: background-color 0.3s;
 }
 
@@ -20,18 +21,18 @@ html, body {
 footer {
     height: 100%;
     color: #666;
-	background-color: #e2d6d6;
-	padding: 17px 0 18px 0;
-	border-top: 1px solid #000;
+    background-color: #e2d6d6;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
 }
 
 .wrapper {
-	min-height: 100%;
+    min-height: 100%;
 }
 
 .clear {
-	clear: both;
-	height: 63px;
+    clear: both;
+    height: 63px;
 }
 
 .nav li {
@@ -44,24 +45,23 @@ footer {
     float: right;
 }
 
+
 /* --------------------------------------- XS screens ----------------------------------------*/
 
 @media (max-width: 767px) {
-	.nav-pills>li {
-		float: none;
-}	
-
-	.nav-pills {
-		text-align: center;	
-}	
-	.header h1 {
-		letter-spacing: 5px;
-		font-size: 280%;
-	}
-
-	.header {
-		text-align: center;	
-	}
+    .nav-pills>li {
+        float: none;
+    }
+    .nav-pills {
+        text-align: center;
+    }
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 280%;
+    }
+    .header {
+        text-align: center;
+    }
 }
 
 
@@ -71,10 +71,10 @@ footer {
     text-align: center;
 }
 
+
 /* --------------------------------------- MAPS ----------------------------------------*/
 
-.digit {
-/*    margin: 10px 10px 10px 10px;*/
-    text-align: center;
+#map {
+	width: 400px;
+	height: 400px;
 }
-
