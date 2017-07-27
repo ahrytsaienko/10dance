@@ -67,14 +67,28 @@ footer {
 
 /* --------------------------------------- CONTACT ----------------------------------------*/
 
-.contact-panel {
+.contact_head {
     text-align: center;
 }
 
 
-/* --------------------------------------- MAPS ----------------------------------------*/
+
+/* --- maps ---*/
+
+.map_description {
+    text-align: center;
+}
 
 #map {
-	width: 400px;
-	height: 400px;
+	width: 550px;
+	height: 500px;
+    border-radius: 1%
 }
+
+#map2 {
+	width: 550px;
+	height: 500px;
+    border-radius: 1%
+}
+
+
