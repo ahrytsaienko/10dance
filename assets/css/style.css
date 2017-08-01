@@ -40,9 +40,13 @@ h2:after {
     background-color: black;
 }
 
+.nav-pills>li.active>a:hover {
+    background-color: red;
+}
+
 .nav-pills>li>a:hover {
     color: #fff;
-    background-color: #000000;
+    background-color: red;
     transition: background-color 0.4s;
 }
 
