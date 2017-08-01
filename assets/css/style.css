@@ -2,7 +2,7 @@
 
 html, body {
 	height: 100%;
-    background: #efefef;
+    background: #ffffff;
 }
 
 h2:after {
@@ -31,9 +31,13 @@ h2:after {
 }
 
 .nav-pills>li>a:hover {
-    color: #fff;
-    background-color: #337ab7;
+    color: #ffffff;
+    background-color: #000;
     transition: background-color 0.4s;
+}
+
+.nav-pills>li.active>a {
+    background-color: #000;
 }
 
 .nav-pills {
@@ -47,7 +51,7 @@ h2:after {
 .header {
     padding: 1%;
     border-top: 1px solid #a5a5a5; 
-    border-bottom: 1px solid #a5a5a5; 
+/*    border-bottom: 1px solid #a5a5a5; */
 }
 
 #AUDSF {
@@ -89,8 +93,8 @@ h2:after {
 }
 
 .our_video>iframe {
-    width: 560px;
-    height: 315px;
+    width: 400px;
+    height: auto;
     border: none;
     overflow: hidden;
 }
