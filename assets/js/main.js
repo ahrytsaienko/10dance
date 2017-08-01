@@ -1,6 +1,12 @@
 //<!---- SCRIPTS ---->
 
-// MAP
+$(document).ready(function(){
+  $('.sl').slick({
+ 	autoplay: true
+  });
+});
+
+ //MAP
 $(function () {
 
     function initMap() {
@@ -21,13 +27,16 @@ $(function () {
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
+    
 });
 
 // NEWS
 
-$(document).ready(function(){
-    $('.post').hide()
-    $('.cls').click(function(){
+$(document).ready(function() {
+   $('.post').hide();
+    $('.cls').click(function() {
         $('.post').slideToggle();
-    })
+    });
 })
+
+
