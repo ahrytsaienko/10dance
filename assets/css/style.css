@@ -1,155 +1,133 @@
-html,
-body {
-    height: 100%;
+/*------------------------------------- COMMON SETTINGS-----------------------------------*/
+
+html, body {
+	height: 100%;
+    background: #efefef;
 }
 
-body {
-    background-color: #efefef;
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #000;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
-header {
-    background-color: #efefef;
+.wrapper {
+	min-height: 100%;
 }
 
-.header li {
-    text-decoration: none;
+.clear {
+	clear: both;
+	height: 63px;
 }
 
-.navbar-inverse {
-    background-color: #efefef;
-    /*background-image: url(file:///F:/Some%20things/JavaScript/Project/10dance/assets/img/all-photos.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    width: auto;
-    height: auto;
-    border: none;*/
+/*------------------------------------- HEADER -------------------------------------------*/
+
+.upper-header {
+    padding: 1%;
 }
 
 .nav-pills>li>a:hover {
     color: #fff;
-    background-color: #346270;
-    transition: background-color 0.3s;
+    background-color: #337ab7;
+    transition: background-color 0.4s;
 }
 
 .nav-pills {
     padding-top: 0.7%;
 }
 
+.navbar-inverse {
+    background-color: #efefef;
+}
+
 .header {
     padding: 1%;
-}
-
-footer {
-    color: #666;
-    background-color: #e2d6d6;
-    padding: 10px 0 10px 0;
-    border-top: 1px solid #000;
-}
-
-.footer-text {
-    margin: 2px;
-}
-
-.clear {
-    clear: both;
-    height: 63px;
-}
-
-.fa {
-    padding: 10px;
-    font-size: 25px !important;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 1px;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    color: #3B5998;
-}
-
-.fa-instagram {
-    color: #125688;
-}
-
-.phone-us p {
-    padding-top: 5%;
-    vertical-align: middle;
-}
-
-.wrapper {
-    min-height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
-    box-sizing: border-box;
-}
-
-#backgroundimage_body {
-    height: auto;
-    left: 0;
-    margin: 0;
-    min-height: 100%;
-    min-width: 674px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: -1;
-}
-
-#backgroundimage_header {
-    height: auto;
-    left: 0;
-    margin: 0;
-    min-height: 100%;
-    min-width: 674px;
-    padding: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: -1;
+    border-top: 1px solid #a5a5a5; 
+    border-bottom: 1px solid #a5a5a5; 
 }
 
 #AUDSF {
-    width: 50%;
+    width: auto;
+    height: auto;
+    padding-top: 7%;
+}
+
+#BOUS {
+    width: 150px;
     height: auto;
 }
 
-.upper-header {
-    padding-top: 0.7%;
-    padding-bottom: 0.5%;
+
+/*------------------------------------- SLIDE NEWS -------------------------------------------*/
+
+.sl__news {
+    width: 800px;
+    margin: 20px auto;
 }
 
-.call-us-text {
-    padding-top: 5px;
+.sl__slide {
+    position: relative;
 }
 
-.phone-us {
-    font-size: 15px;
+.sl__text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 2%;
 }
 
-.heading--main {
-    background-color: #e3585d !important;
+.sl__zag {
+    margin: 0;
 }
 
-.heading--main .hN {
-    background-color: #6d4c4e !important;
+.our_video>iframe {
+    width: 560px;
+    height: 315px;
+    border: none;
+    overflow: hidden;
 }
 
-.cards {
-     background-color: #efefef;    
+
+
+/*------------------------------------- COACH-BLOCK -------------------------------------------*/
+
+.coach-block .img-circle {
+    border-radius: 50% !important;
 }
 
-.school {
-     background-color: #414040;   
+
+/*------------------------------------- ABOUT SCHOOL -------------------------------------------*/
+
+.about-school>ul {
+    list-style: none;
+    font-size: 19px;
 }
 
-.school>ul {
-     color: white;   
+.about-school>ul>li {
+    font-size: 17px;
+    margin-top: 1%;
+}
+
+.about-school .glyphicon {
+    margin-right: 1%;    
+}
+
+
+/*------------------------------------- FOOTER -------------------------------------------*/
+
+footer {
+	color: #666;
+	background-color: #413030;
+	padding: 17px 0 18px 0;
+	border-top: 1px solid #000;
 }
 
 /* --------------------------------------- XS screens ----------------------------------------*/
