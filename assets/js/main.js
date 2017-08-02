@@ -1,12 +1,12 @@
 //<!---- SCRIPTS ---->
 
-$(document).ready(function(){
-  $('.sl').slick({
- 	autoplay: true
-  });
-});
+//$(document).ready(function(){
+//  $('.sl').slick({
+// 	autoplay: true
+//  });
+//});
 
- //MAP
+//MAP
 $(function () {
 
     function initMap() {
@@ -27,16 +27,15 @@ $(function () {
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
-    
+
 });
 
 // NEWS
 
-$(document).ready(function() {
-   $('.post').hide();
-    $('.cls').click(function() {
-        $('.post').slideToggle();
-    });
+$(document).ready(function () {
+    $('.post').hide()
+    $('.cls').click(function () {
+        var fzzz = $(this).next();
+        $(this).prev().slideToggle("slow");      
+    })
 })
-
-
