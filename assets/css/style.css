@@ -3,6 +3,7 @@
 html, body {
 	height: 100%;
     background: rgba(255, 255, 255, 0.58);
+    font-family: 'Lato', 'Arial', 'sans-serif';
 }
 
 h2:after {
@@ -141,11 +142,15 @@ h2:after {
     margin-right: 1%;    
 }
 
-/*
-.advantage {
-    border-bottom: 1px solid red;
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
-*/
 
 
 /*------------------------------------- FOOTER -------------------------------------------*/
