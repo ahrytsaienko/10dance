@@ -33,9 +33,24 @@ $(function () {
 // NEWS
 
 $(document).ready(function () {
-    $('.post').hide()
+    $('.post').hide();
     $('.cls').click(function () {
-        var fzzz = $(this).next();
-        $(this).prev().slideToggle("slow");      
+        $(this).prev().slideToggle("slow");
     })
-})
+});
+
+
+
+$(document).ready(function () {
+    $('.hide_event').click(function () {
+        var newsBlock = $('.news');
+        var index = this.classList.length - 1;
+        $('.news').hide();
+        for (i = 0; i <= newsBlock.length; i++) {
+            var searchClass = this.classList[index];
+            if ($(newsBlock[i]).hasClass(searchClass)) {
+                $(newsBlock[i]).show();
+            }
+        }
+    });
+});
