@@ -1,10 +1,12 @@
 /*------------------------------------- COMMON SETTINGS-----------------------------------*/
 
-html, body {
-	height: 100%;
+html,
+body {
+    height: 100%;
     background: #fff;
     font-family: 'Lato', 'Arial', 'sans-serif';
 }
+
 
 /*
 h2:after {
@@ -19,13 +21,14 @@ h2:after {
 */
 
 .wrapper {
-	min-height: 100%;
+    min-height: 100%;
 }
 
 .clear {
-	clear: both;
-	height: 63px;
+    clear: both;
+    height: 63px;
 }
+
 
 /*------------------------------------- HEADER -------------------------------------------*/
 
@@ -63,15 +66,14 @@ h2:after {
     transition: background-color 0.4s;
 }
 
-
 .navbar-inverse {
     background-color: #efefef;
 }
 
 .header {
     padding: 1%;
-   border-top: 1px solid #a5a5a5;
-/*    border-bottom: 1px solid #a5a5a5; */
+    border-top: 1px solid #a5a5a5;
+    /*    border-bottom: 1px solid #a5a5a5; */
 }
 
 #AUDSF {
@@ -120,7 +122,6 @@ h2:after {
 }
 
 
-
 /*------------------------------------- COACH-BLOCK -------------------------------------------*/
 
 .coach-block .img-circle {
@@ -141,7 +142,7 @@ h2:after {
 }
 
 .about-school .glyphicon {
-    margin-right: 1%;    
+    margin-right: 1%;
 }
 
 h3:after {
@@ -158,11 +159,12 @@ h3:after {
 /*------------------------------------- FOOTER -------------------------------------------*/
 
 footer {
-	color: #666;
-	background-color: #413030;
-	padding: 17px 0 18px 0;
-	border-top: 1px solid #000;
+    color: #666;
+    background-color: #413030;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
 }
+
 
 /* --------------------------------------- XS screens ----------------------------------------*/
 
@@ -208,20 +210,21 @@ footer {
     border-radius: 1%
 }
 
-/* --------------------------------------- NEWS ----------------------------------------*/
 
+/* --------------------------------------- NEWS ----------------------------------------*/
 
 .slide_img_properties {
     width: 630px;
 }
 
-.panel-default > .panel-heading {
-  color: black;
+.panel-default>.panel-heading {
+    color: black;
 }
 
 .news_block {
     margin-top: 0;
 }
+
 
 /*
 .list-group > li > a {
@@ -232,5 +235,3 @@ footer {
     color: black;
 }
 */
-
-
