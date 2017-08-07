@@ -1,36 +1,40 @@
-
 //MAP
 $(function () {
 
     function initMap() {
-        var location = new google.maps.LatLng(50.4133761, 30.6176347);
-        var location2 = new google.maps.LatLng(50.43443857295739, 30.622200965881348); 
-        var mapCanvas = document.getElementById('map');
-        var mapCanvas2 = document.getElementById('map2');
-        var mapOptions = {
-            center: location2,
-            zoom: 14,
-            panControl: false,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
+        var arr_maps, location, mapObject, mapCanvas, mapOption, map, marker;
+
+        arr_maps = ['map', 'map2'];
+
+        for (i = 0; i <= arr_maps.length; i++) {
+            mapObject = getMapProperties(arr_maps[i]);
+
+            location = new google.maps.LatLng(mapObject['cordinates'][0], mapObject['cordinates'][1]);
+            mapCanvas = document.getElementById(arr_maps[i]);
+            mapOption = {
+                center: location,
+                zoom: 14,
+                panControl: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            map = new google.maps.Map(mapCanvas, mapOption);
+
+            marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                icon: mapObject['markerImage']
+            });
         }
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-        var map2 = new google.maps.Map(mapCanvas2, mapOptions);
-        
-        //add marker
-        var markerImage = 'marker-32.png';
-        
-        var marker = new google.maps.Marker({
-            position: location2,
-            map: map,
-            icon: markerImage
-        }); 
-        
-         var marker = new google.maps.Marker({
-            position: location2,
-            map: map2,
-            icon: markerImage
-        });      
     }
+
+    function getMapProperties(mapName) {
+
+        return {
+            cordinates: mapName === 'map' ? [50.4133761, 30.6176347] : [50.4371499, 30.6157884],
+            markerImage: 'marker-32.png',
+        }
+    }
+
     google.maps.event.addDomListener(window, 'load', initMap);
 });
 
