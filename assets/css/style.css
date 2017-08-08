@@ -71,7 +71,6 @@ h4 {
 
 .header {
     padding: 1%;
-    border-top: 1px solid #a5a5a5;
 }
 
 #AUDSF {
@@ -94,7 +93,7 @@ h4 {
 /*------------------------------------- SLIDE NEWS -------------------------------------------*/
 
 .sl__news {
-    width: 800px;
+    width: 900px;
     margin: 20px auto;
 }
 
@@ -118,10 +117,15 @@ h4 {
 }
 
 .our_video>iframe {
-    width: 400px;
+    width: 200px;
     height: auto;
     border: none;
     overflow: hidden;
+}
+
+.open_door {
+    font-size: 17px;
+    padding: 4%;
 }
 
 
@@ -147,88 +151,11 @@ h4 {
 .info-about {
     border-radius: 10%;
     border: 1px solid #ede9e9;
-    padding: 30px;
+    padding: 15%;
     font-size: 22px;
-    color: #ffffff;
-    margin: 0 5px;
+    color: #000000;
+    margin: 0 10px 0 10px;
 }
-
-#background_image_1 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(40.jpg);*/
-    background-image: url(dance_class.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_2 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(10.jpg);*/
-    background-image: url(10.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_3 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(20.jpg);*/
-    background-image: url(20.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_4 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(30.jpg);*/
-    background-image: url(30.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_5 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(40.jpg);*/
-    background-image: url(40.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_6 {
-/*    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(40.jpg);*/
-    background-image: url(40.jpg);
-    background-size: cover;
-    background-position: center;
-    transform: scale(1.2);
-    transition: transform 0.3s;
-    opacity: 0.8;
-    transition: transform 0.2s, opacity 0.5s;
-}
-
-#background_image_1:hover,
-#background_image_2:hover,
-#background_image_3:hover,
-#background_image_4:hover,
-#background_image_5:hover,
-#background_image_6:hover {
-    transform: scale(1.05);
-    opacity: 1;
-}
-
 
 
 /*------------------------------------- ABOUT SCHOOL -------------------------------------------*/
