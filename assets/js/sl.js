@@ -1,9 +1,17 @@
 $(document).ready(function(){
   $('.sl').slick({
       autoplay: true,
-      dots: true
+      autoplaySpeed: 1500,
+      dots: true,
+      slidesToShow: 2,
   });
 });
 
-$('video').autoplay = true;
-$('video').load();
+// SLICK CONTACTS
+
+$(document).ready(function () {
+    $('.slick_contacts').slick({
+        autoplay: true,
+        dots: true
+    })
+})
