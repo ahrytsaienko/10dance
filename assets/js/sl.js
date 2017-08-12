@@ -1,14 +1,35 @@
 $(document).ready(function(){
   $('.sl').slick({
       autoplay: true,
-      autoplaySpeed: 1500,
+      arrows: false,
+      autoplaySpeed: 3000,
       dots: true,
       slidesToShow: 2,
+      infinite: true,
+      responsive: [
+                {
+      breakpoint: 767,
+      settings: 'slick'        
+    },
+      {
+      breakpoint: 480,
+      settings: 'unslick'
+      },
+        
+      ]
   });
 });
 
+// SLICK CONTACTS
+
+$(document).ready(function () {
+    $('.slick_contacts').slick({
+        autoplay: true,
+        dots: true
+    })
+})
 
 
 
-$('video').autoplay = true;
-$('video').load();
+
+// GALLERY

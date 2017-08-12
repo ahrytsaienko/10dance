@@ -30,14 +30,27 @@ h2 {
     color: #000;
 }
 
+h3:after {
+    margin-top: 15px !important;
+}
+
 h4 {
     color: #403c3c;
 }
 
+
 /*------------------------------------- HEADER -------------------------------------------*/
 
 .upper-header {
-    padding: 1%;
+    padding-top: 1%;
+    font-size: 16px;
+}
+
+.logo {
+    float: left;
+    margin-left: 7%;
+    width: 150px;
+    height: auto;
 }
 
 .nav-pills>li>a {
@@ -65,23 +78,31 @@ h4 {
     color: #000;
 }
 
+.nav-pills>li>a:focus {
+    color: #fff;
+    background-color: #000000;
+    transition: background-color 0.4s;
+}
+
 .navbar-inverse {
     background-color: #efefef;
 }
 
+.navbar-header {
+    margin-left: 20%;
+}
+
 .header {
     padding: 1%;
+    float: left;
 }
 
-#AUDSF {
-    width: auto;
+.logos_AUDSF {
+    /*
+    width: 130px;
     height: auto;
-    padding-top: 7%;
-}
-
-#BOUS {
-    width: 150px;
-    height: auto;
+    padding-top: 1%;
+*/
 }
 
 .our_title {
@@ -89,11 +110,20 @@ h4 {
     font-size: 16px;
 }
 
+.logos_WDSF,
+.logos_AUDSF {
+    float: left;
+    width: 170px;
+    height: auto;
+    padding-top: 1%;
+    margin-left: 2%;
+}
+
 
 /*------------------------------------- SLIDE NEWS -------------------------------------------*/
 
 .sl__news {
-    width: 900px;
+    width: 75%;
     margin: 20px auto;
 }
 
@@ -101,23 +131,13 @@ h4 {
     position: relative;
 }
 
-.sl__text {
-    position: absolute;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100%;
-    color: #fff;
-    text-align: center;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
-    padding: 2%;
-}
-
-.sl__zag {
-    margin: 0;
+.sl__img {
+    height: auto;
+    max-width: 100%;
 }
 
 .our_video>iframe {
-    width: 200px;
+    width: 400px;
     height: auto;
     border: none;
     overflow: hidden;
@@ -133,12 +153,21 @@ h4 {
 
 .coach-block .img-circle {
     border-radius: 50% !important;
-/*    border: 4px solid #e20e0e;*/
+    /*    border: 4px solid #e20e0e;*/
 }
 
 .photos-Vit_Kat {
     list-style: none;
-    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.coach {
+    color: #ff0000;
+}
+
+.photos-Vit_Kat {
+    list-style: none;
+    margin-bottom: 25px;
 }
 
 .coach {
@@ -148,13 +177,9 @@ h4 {
 
 /*------------------------------------- INFO ABOUT US -------------------------------------------*/
 
-.info-about {
-    border-radius: 10%;
-    border: 1px solid #ede9e9;
-    padding: 15%;
-    font-size: 22px;
-    color: #000000;
-    margin: 0 10px 0 10px;
+.container-info div {
+    border: 1px #ccc solid;
+    padding: 10px;
 }
 
 
@@ -174,6 +199,16 @@ h4 {
     margin-right: 1%;
 }
 
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 
 /*------------------------------------- FOOTER -------------------------------------------*/
 
@@ -187,7 +222,7 @@ footer {
 
 /* --------------------------------------- XS screens ----------------------------------------*/
 
-@media (max-width: 767px) {
+@media (max-width: 468px) {
     .nav-pills>li {
         float: none;
     }
@@ -196,20 +231,69 @@ footer {
     }
     .header h1 {
         letter-spacing: 5px;
-        font-size: 280%;
+        font-size: 200%;
     }
     .header {
         text-align: center;
     }
+    .navbar-toggle {
+        background-color: #ff0000;
+        float: left;
+    }
+    .navbar-toggle {
+        background-color: #ff0000;
+        margin-left: 15px !important;
+        text-align: right;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #ffffff;
+    }
+    .logo {
+        float: left;
+        margin-left: 7%;
+        width: 100px;
+        height: auto;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        float: left;
+        width: 70px;
+        height: auto;
+        padding-top: 1%;
+        margin-left: 2%;
+    }
+    .our_title {
+        font-size: 10px;
+    }
+    
+    .about-school>ul {
+        padding-left: 0;
+    }
+    .about-school>ul>li {
+        font-size: 12px;
+        margin-top: 1%;
+    }
+    .about-school .glyphicon {
+        margin-right: 3%;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    
+    .sl__news {
+    width: 65%;
+    margin: 20px auto;
+}
 }
 
-.navbar-toggle {
-    background-color: #ff0000;
+@media (min-width: 468px) {
+    .container-info {
+        font-size: 150%;
+        display: flex;
+        justify-content: space-around;
+    }
 }
 
-.navbar-toggle .icon-bar {
-    background-color: #ffffff;
-}
 
 /* --------------------------------------- CONTACT ----------------------------------------*/
 
@@ -235,3 +319,32 @@ footer {
     height: 500px;
     border-radius: 1%
 }
+
+
+/* --------------------------------------- NEWS ----------------------------------------*/
+
+.slide_img_properties {
+    width: 630px;
+}
+
+.panel-default>.panel-heading {
+    color: black;
+}
+
+.news_block {
+    margin-top: 0;
+}
+
+
+/*
+.list-group > li > a {
+    color:black ;
+}
+
+.list-inline > li > a {
+    color: black;
+}
+*/
+
+
+/* --------------------------------------- GALLERY ----------------------------------------*/
