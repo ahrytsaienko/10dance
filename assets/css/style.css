@@ -39,6 +39,125 @@ h4 {
 }
 
 
+/*------------------------------------- SOCIAL ICONS -----------------------------------*/
+
+
+/*опустить свму панельку с иконками ниже*/
+
+.social {
+    position: fixed;
+    top: 20px;
+}
+
+.social ul {
+    padding: 0px;
+    -webkit-transform: translate(-280px, 0);
+    -moz-transform: translate(-280px, 0);
+    -ms-transform: translate(-280px, 0);
+    -o-transform: translate(-280px, 0);
+    transform: translate(-280px, 0);
+}
+
+.social ul li {
+    display: block;
+    margin: 5px;
+    background: rgba(0, 0, 0, 0.36);
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+    -webkit-border-radius: 0 30px 30px 0;
+    -moz-border-radius: 0 30px 30px 0;
+    border-radius: 0 30px 30px 0;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li:hover {
+    -webkit-transform: translate(65px, 0);
+    -moz-transform: translate(65px, 0);
+    -ms-transform: translate(65px, 0);
+    -o-transform: translate(65px, 0);
+    transform: translate(65px, 0);
+    background-color: #1400ff;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.social ul li:hover a {
+    color: #000;
+}
+
+.social ul li:hover i {
+    color: #000000;
+    /*  color: #fff;*/
+    background: red;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+}
+
+.social ul li i {
+    margin-left: 10px;
+    color: #000;
+    background: red;
+    /*  background: #fff;*/
+    padding: 10px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    background: #ffffff;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 20px !important;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 1px 1px;
+}
+
+/*
+.fa {
+    padding: 10px;
+    font-size: 25px !important;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 1px;
+}
+*/
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    color: #3B5998;
+}
+
+.fa-instagram {
+    color: #125688;
+}
+
+
 /*------------------------------------- HEADER -------------------------------------------*/
 
 .upper-header {
@@ -265,7 +384,6 @@ footer {
     .our_title {
         font-size: 10px;
     }
-    
     .about-school>ul {
         padding-left: 0;
     }
@@ -279,11 +397,10 @@ footer {
     h2 {
         font-size: 18px;
     }
-    
     .sl__news {
-    width: 65%;
-    margin: 20px auto;
-}
+        width: 65%;
+        margin: 20px auto;
+    }
 }
 
 @media (min-width: 468px) {
