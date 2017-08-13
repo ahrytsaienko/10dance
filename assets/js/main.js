@@ -1,3 +1,7 @@
+// TODO
+// recode for es6
+// сделать колбек функцию для слика в методе toggle
+
 //MAP
 $(function () {
 
@@ -7,13 +11,14 @@ $(function () {
         arr_maps = ['map', 'map2'];
 
         for (i = 0; i <= arr_maps.length; i++) {
+
             mapObject = getMapProperties(arr_maps[i]);
 
-            location = new google.maps.LatLng(mapObject['cordinates'][0], mapObject['cordinates'][1]);
+            location = new google.maps.LatLng(mapObject.cordinates[0], mapObject.cordinates[1]);
             mapCanvas = document.getElementById(arr_maps[i]);
             mapOption = {
                 center: location,
-                zoom: 14,
+                zoom: mapObject.mapZoom[i],
                 panControl: false,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
             };
@@ -22,7 +27,7 @@ $(function () {
             marker = new google.maps.Marker({
                 position: location,
                 map: map,
-                icon: mapObject['markerImage']
+                icon: mapObject.markerImage
             });
         }
     }
@@ -30,9 +35,10 @@ $(function () {
     function getMapProperties(mapName) {
 
         return {
-            cordinates: mapName === 'map' ? [50.4133761, 30.6176347] : [50.4371499, 30.6157884],
+            cordinates: mapName === 'map' ? [50.4133761, 30.6176347] : [50.434663, 30.62238],
             markerImage: 'marker-32.png',
-        }
+            mapZoom: [16, 16]
+        };
     }
 
     google.maps.event.addDomListener(window, 'load', initMap);
@@ -40,18 +46,44 @@ $(function () {
 
 // NEWS
 // Slick block for news page.
+// Временная дока: В слике создать клас с суффиксом -slick, с именем первого класа кнопки
+// "Читать дальше"
 $(document).ready(function () {
-    $('.post').hide();
-    $('.cls').click(function () {
+    var slickClassName;
+
+    $('.news__hidden').hide();
+    $('.more-news-btn').click(function () {
+        slickClassName = "." + this.classList[0] + '-slick';
         $(this).prev().slideToggle('slow');
-        $('.slick_news').slick({
-            autoplay: true,
-            dots: true
+        $(slickClassName).slick({
+            autoplay: $(slickClassName).is(':visible'),
+            dots: $(slickClassName).is(':visible'),
         });
     });
+
+    // function cbSlick(fslickClassName) {
+    //     $(fslickClassName).slick({
+    //         autoplay: $(fslickClassName).is(':visible'),
+    //         dots: $(fslickClassName).is(':visible'),
+    //     });
+    // }
 });
 
-//
+// Slick block for news page.
+// $(document).ready(function () {
+//     $('.post').hide();
+//     $('.cls').click(function () {
+//         $(this).prev().slideToggle('slow');
+//         $('.slick_news').slick({
+//             autoplay: true,
+//             dots: true
+//         });
+//     });
+// });
+
+
+
+//NEWS. Отборы по категориям, тегам.
 $(document).ready(function () {
     var newsBlock, index, searchClass;
     $('.hide_event').click(function () {
