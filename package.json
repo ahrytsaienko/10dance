@@ -5,7 +5,7 @@
     "scripts": {
       "lite": "lite-server --port 4000",
       "start": "npm run lite"
-    },``
+    },
     "author": "",
     "license": "ISC",
     "devDependencies": {
