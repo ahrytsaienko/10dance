@@ -98,3 +98,15 @@ $(document).ready(function () {
         }
     });
 });
+
+//RULES.
+$(document).ready(function() {
+    var options = {
+        height: "1000px"
+    }
+    PDFObject.embed("/assets/pdf/rules/school-rules.pdf", "#school-rules", options);
+    PDFObject.embed("/assets/pdf/rules/age-category-inf.pdf", "#age-category-inf", options);
+    PDFObject.embed("/assets/pdf/rules/dance-inf.pdf", "#dance-inf", options);
+    PDFObject.embed("/assets/pdf/rules/clothes-inf.pdf", "#clothes-inf", options);
+    
+})
