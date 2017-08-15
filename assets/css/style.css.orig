@@ -30,37 +30,23 @@ h2 {
     color: #000;
 }
 
-/*
 h3:after {
     margin-top: 15px !important;
 }
-*/
 
 h4 {
     color: #403c3c;
 }
 
-/*
-h3:after {
-    display: block;
-    height: 2px;
-    background-color: red;
-    content: "";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-*/
-
 
 /*------------------------------------- SOCIAL ICONS -----------------------------------*/
 
 
-/*опустить саму панельку с иконками ниже*/
+/*опустить свму панельку с иконками ниже*/
 
 .social {
     position: fixed;
-    top: 130px;
+    top: 20px;
 }
 
 .social ul {
@@ -195,10 +181,10 @@ h3:after {
 .logos_WDSF,
 .logos_AUDSF {
     float: left;
-    width: 150px;
+    width: 120px;
     height: auto;
     padding-top: 1%;
-    margin-left: 1%;
+    margin-left: 2%;
 }
 
 .affix {
@@ -226,12 +212,8 @@ h3:after {
 }
 
 .sl__img {
-    height: 400px;
-    width: auto;
-/*
     height: auto;
     max-width: 100%;
-*/
 }
 
 .our_video>iframe {
@@ -278,6 +260,17 @@ h3:after {
     margin-right: 1%;
 }
 
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: red;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
 /*------------------------------------- FOOTER -------------------------------------------*/
 
 footer {
@@ -293,7 +286,7 @@ footer {
 .navbar-collapse {
     float: left;
     background-color: #fff;
-    margin-left: 90px;
+    margin-left: 80px;
     border-color: #fff;
 }
 
@@ -321,10 +314,11 @@ footer {
     float: left;
 }
 
+
 .navbar-inverse {
     float: left;
     border-color: #fff;
-    background-color: #fff;
+background-color: #fff;
 }
 
 
@@ -570,6 +564,7 @@ footer {
 
 /* --------------------------------------- GALLERY ----------------------------------------*/
 
+<<<<<<< HEAD
 
 /*
 @media (max-width: 1023px) {
@@ -777,10 +772,11 @@ footer {
     }
 }
 */
-
-
+=======
 /* --------------------------------------- RULES ----------------------------------------*/
 
 #example1 {
     height: auto;
 }
+
+>>>>>>> 20cf138c09ec6fc4f12e8f0deb2e3f52388964d9
