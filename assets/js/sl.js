@@ -8,11 +8,11 @@ $(document).ready(function(){
       infinite: true,
       responsive: [
                 {
-      breakpoint: 767,
+      breakpoint: 1023,
       settings: 'slick'        
     },
       {
-      breakpoint: 480,
+      breakpoint: 481,
       settings: 'unslick'
       },
         
