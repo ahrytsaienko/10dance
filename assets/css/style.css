@@ -52,6 +52,16 @@ h3:after {
 }
 */
 
+.btn-default {
+    background-color: #ddd;
+}
+
+/* news.html btn-color */
+.btn-default:hover {
+    color: white;
+    background-color: red;
+}
+
 
 /*------------------------------------- SOCIAL ICONS -----------------------------------*/
 
@@ -282,7 +292,7 @@ h3:after {
 
 footer {
     color: #efefef;
-    background-color: #413030;
+    background-color: #0d0d0d;
     padding: 17px 0 18px 0;
     border-top: 1px solid #000;
 }
@@ -301,16 +311,18 @@ footer {
 .nav-pills>li.active>a:focus,
 .nav-pills>li.active>a:hover {
     color: #fff;
-    background-color: #000000;
+    background-color: red;
     transition: background-color 0.1s;
 }
+
+
 
 .nav-pills li a {
     color: #000000;
 }
 
 .nav-pills li a:hover {
-    background-color: #ff0000 !important;
+    background-color: #555555 !important;
     color: #fff;
     transition: background-color 0.4s;
 }
@@ -614,7 +626,7 @@ footer {
 }
 
 .panel-heading h4 {
-    color: #efefef;
+    color: #000000;
 }
 
 .news__header {
