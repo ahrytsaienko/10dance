@@ -4,7 +4,7 @@ html,
 body {
     height: 100%;
     background: #ffffff;
-    font-family: 'Yantramanav', sans-serif;
+    font-family: 'Bitter', serif;
 }
 
 h2:after {
@@ -30,6 +30,7 @@ h2 {
     color: #000;
 }
 
+
 /*
 h3:after {
     margin-top: 15px !important;
@@ -40,23 +41,17 @@ h4 {
     color: #403c3c;
 }
 
-/*
 h3:after {
-    display: block;
-    height: 2px;
-    background-color: red;
-    content: "";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
+    display: none;
 }
-*/
 
 .btn-default {
     background-color: #ddd;
 }
 
+
 /* news.html btn-color */
+
 .btn-default:hover {
     color: white;
     background-color: red;
@@ -70,7 +65,7 @@ h3:after {
 
 .social {
     position: fixed;
-    top: 130px;
+    top: 50px;
 }
 
 .social ul {
@@ -85,8 +80,9 @@ h3:after {
 .social ul li {
     display: block;
     margin: 5px;
+    margin-left: 20px;
     background: rgba(199, 57, 57, 0.36);
-/*    background: rgba(0, 0, 0, 0.36);*/
+    /*    background: rgba(0, 0, 0, 0.36);*/
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -199,7 +195,6 @@ h3:after {
 }
 
 .our_title {
-    font-family: 'Galada', cursive, serif;
     font-size: 16px;
 }
 
@@ -225,6 +220,22 @@ h3:after {
 }
 
 
+/*------------------------------------- COLLAGE -------------------------------------------*/
+
+.collage {
+    overflow: hidden;
+    padding: 0;
+    max-width: 110%;
+}
+
+.collage img {
+    overflow: hidden;
+    padding: 0;
+    max-height: 450px;
+    width: 1500px;
+}
+
+
 /*------------------------------------- SLIDE NEWS -------------------------------------------*/
 
 .sl__news {
@@ -239,7 +250,7 @@ h3:after {
 .sl__img {
     height: 400px;
     width: auto;
-/*
+    /*
     height: auto;
     max-width: 100%;
 */
@@ -257,6 +268,9 @@ h3:after {
     padding: 4%;
 }
 
+.sl__slide p {
+    font-size: 19px;
+}
 
 /*------------------------------------- COACH-BLOCK -------------------------------------------*/
 
@@ -281,7 +295,6 @@ h3:after {
 }
 
 
-
 /*------------------------------------- ABOUT SCHOOL -------------------------------------------*/
 
 .about-school>ul {
@@ -298,6 +311,7 @@ h3:after {
     margin-right: 1%;
 }
 
+
 /*------------------------------------- FOOTER -------------------------------------------*/
 
 footer {
@@ -309,6 +323,18 @@ footer {
 
 
 /*------------------------------------- NAVIGATION -------------------------------------------*/
+
+.upper-header p {
+    margin: 0;
+}
+
+.nav>li>a {
+    padding: 10px 15px;
+}
+
+.nav-pills li a {
+    margin-top: 5px;
+}
 
 .navbar-collapse {
     float: left;
@@ -325,8 +351,6 @@ footer {
     transition: background-color 0.1s;
 }
 
-
-
 .nav-pills li a {
     color: #000000;
 }
@@ -340,7 +364,7 @@ footer {
 .navbar-toggle {
     border-color: #fff !important;
     background-color: #ff0000 !important;
-    float: left;    
+    float: left;
 }
 
 .navbar-inverse {
@@ -350,256 +374,7 @@ footer {
 }
 
 
-/*
-    position: relative;
-    
-    padding: 9px 10px;
-    margin-top: 8px;
-    margin-right: 15px;
-    margin-bottom: 8px;
-    background-color: transparent;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-*/
-
-
-/* --------------------------------------- XS screens ----------------------------------------*/
-
-
-/*
-@media (max-width: 468px) {
-    .nav-pills>li {
-        float: none;
-    }
-    .nav-pills {
-        text-align: center;
-    }
-    .header h1 {
-        letter-spacing: 5px;
-        font-size: 200%;
-    }
-    .header {
-        text-align: center;
-    }
-    .navbar-toggle {
-        background-color: #ff0000;
-        margin-left: 15px !important;
-        text-align: right;
-        float: left;
-    }
-    .navbar-toggle .icon-bar {
-        background-color: #ffffff;
-    }
-    .logo {
-        float: left;
-        margin-left: 7%;
-        width: 100px;
-        height: auto;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 70px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 2%;
-    }
-    .navbar-inverse {
-        border-color: #fff;
-        margin-left: 7%;
-        padding-bottom: 10px;
-    }
-    .navbar {
-        float: left;
-        background-color: #fff;
-    }
-    .our_title {
-        font-size: 10px;
-    }
-    .about-school>ul {
-        padding-left: 0;
-    }
-    .about-school>ul>li {
-        font-size: 12px;
-        margin-top: 1%;
-    }
-    .about-school .glyphicon {
-        margin-right: 3%;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    .sl__news {
-        width: 65%;
-        margin: 20px auto;
-    }
-}
-*/
-
-/*
-@media (min-width: 468px) {
-    .container-info {
-        font-size: 150%;
-        display: flex;
-        justify-content: space-around;
-    }
-}
-*/
-
-
-/* --------------------------------------- md screens ----------------------------------------*/
-
-
-/* Small tablets to big tablets: from 768px to 1023px*/
-
-
-/*
-@media (max-width: 1023px) {
-    .nav-pills>li {
-        float: none;
-    }
-    .nav-pills {
-        text-align: center;
-    }
-    .header h1 {
-        letter-spacing: 5px;
-        font-size: 200%;
-    }
-    .header {
-        text-align: center;
-    }
-    .navbar-toggle {
-        background-color: #ff0000;
-        margin-left: 15px !important;
-        text-align: right;
-        float: left;
-    }
-    .navbar-toggle .icon-bar {
-        background-color: #ffffff;
-    }
-    .logo {
-        float: left;
-        margin-left: 7%;
-        width: 100px;
-        height: auto;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 70px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 2%;
-    }
-    .navbar-inverse {
-        border-color: #fff;
-        margin-left: 7%;
-        padding-bottom: 10px;
-    }
-    .navbar {
-        float: left;
-        background-color: #fff;
-    }
-    .our_title {
-        font-size: 10px;
-    }
-    .about-school>ul {
-        padding-left: 0;
-    }
-    .about-school>ul>li {
-        font-size: 12px;
-        margin-top: 1%;
-    }
-    .about-school .glyphicon {
-        margin-right: 3%;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    .sl__news {
-        width: 65%;
-        margin: 20px auto;
-    }
-}
-*/
-
-
 /* --------------------------------------- CONTACTS ----------------------------------------*/
-
-
-/* Small tablets to big tablets: from 768px to 1023px*/
-
-
-/*
-@media (max-width: 1023px) {
-    .nav-pills>li {
-        float: none;
-    }
-    .nav-pills {
-        text-align: center;
-    }
-    .header h1 {
-        letter-spacing: 5px;
-        font-size: 200%;
-    }
-    .header {
-        text-align: center;
-    }
-    .navbar-toggle {
-        background-color: #ff0000;
-        margin-left: 15px !important;
-        text-align: right;
-        float: left;
-    }
-    .navbar-toggle .icon-bar {
-        background-color: #ffffff;
-    }
-    .logo {
-        float: left;
-        margin-left: 7%;
-        width: 100px;
-        height: auto;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 70px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 2%;
-    }
-    .navbar-inverse {
-        border-color: #fff;
-        margin-left: 7%;
-        padding-bottom: 10px;
-    }
-    .navbar {
-        float: left;
-        background-color: #fff;
-    }
-    .our_title {
-        font-size: 10px;
-    }
-    .about-school>ul {
-        padding-left: 0;
-    }
-    .about-school>ul>li {
-        font-size: 12px;
-        margin-top: 1%;
-    }
-    .about-school .glyphicon {
-        margin-right: 3%;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    .sl__news {
-        width: 65%;
-        margin: 20px auto;
-    }
-}
-*/
 
 .contact_head p {
     font-size: 20px;
@@ -614,7 +389,7 @@ footer {
 }
 
 
-/* --- maps ---*/
+/* --------------------------------------- MAPS ----------------------------------------*/
 
 #map {
     width: 550px;
@@ -642,16 +417,55 @@ footer {
 }
 
 .panel-heading h4 {
-    color: #000000;
+    color: #ffffff;
 }
 
 .news__header {
     margin-top: 0;
 }
 
+
+/*
+.panel-heading h4 {
+    color: #000000;
+}
+*/
+
+.panel-heading {
+    background-color: #ff0000 !important;
+}
+
+.btn-color {
+    background-color: #ff0000 !important;
+    color: #ffffff !important;
+}
+
 .news__crystal-cup-slick,
 .news__ukraine-cup-2017-juniors-slick {
     width: 550px;
+}
+
+.adverts li {
+    list-style: none;
+    max-width: 110%;
+    margin: -10% !important;
+    padding: 50px 15px 0px 15px;
+}
+
+.adverts p {
+    font-size: 19px;
+}
+
+.pre-scrollable {
+    height: auto;
+    max-height: 700px !important;
+    width: auto;
+    overflow: auto;
+    background-color: #ffeef2;
+    word-break: normal !important;
+    word-wrap: normal !important;
+/*    white-space: pre !important;*/
+    overflow-y: scroll;
 }
 
 
@@ -669,117 +483,12 @@ footer {
 /* --------------------------------------- GALLERY ----------------------------------------*/
 
 
-/*
-@media (max-width: 1023px) {
-    .nav-pills>li {
-        float: none;
-    }
-    .nav-pills {
-        text-align: center;
-    }
-    .header h1 {
-        letter-spacing: 5px;
-        font-size: 200%;
-    }
-    .header {
-        text-align: center;
-    }
-    .navbar-toggle {
-        background-color: #ff0000;
-        margin-left: 15px !important;
-        text-align: right;
-        float: left;
-    }
-    .navbar-toggle .icon-bar {
-        background-color: #ffffff;
-    }
-    .logo {
-        float: left;
-        margin-left: 7%;
-        width: 100px;
-        height: auto;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 70px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 2%;
-    }
-    .navbar-inverse {
-        border-color: #fff;
-        margin-left: 7%;
-        padding-bottom: 10px;
-    }
-    .navbar {
-        float: left;
-        background-color: #fff;
-    }
-    .our_title {
-        font-size: 10px;
-    }
-    .about-school>ul {
-        padding-left: 0;
-    }
-    .about-school>ul>li {
-        font-size: 12px;
-        margin-top: 1%;
-    }
-    .about-school .glyphicon {
-        margin-right: 3%;
-    }
-    h2 {
-        font-size: 18px;
-    }
-    .sl__news {
-        width: 65%;
-        margin: 20px auto;
-    }
-}
-*/
-
-
-/* Big tablet to 1200px (width smaller than 1140px row)*/
-/*
-@media only screen and (max-width: 1200px) {
-}
-*/
-
-
-/* Small tablets to big tablets: from 768px to 1023px*/
-
-
-/*
-@media only screen and (max-width: 1023px) {
-}
-*/
-
-
-/* Small phones to small tablets: from 481 to 767px*/
-/*
-@media only screen and (max-width: 767px) {
-}
-*/
-
-
-/* Small phones: from 0 to 480px*/
-
-
-/*
-@media only screen and (max-width: 480px) {
-    section {
-        padding: 25px 0;
-    }
-    .contact-form {
-        width: 100%;
-    }
-}
-*/
-
-
 /* --------------------------------------- RULES ----------------------------------------*/
 
 #example1 {
     height: auto;
+}
+
+.nav-stacked p {
+    font-size: 17px;
 }
