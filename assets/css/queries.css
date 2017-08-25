@@ -1,13 +1,182 @@
+@media only screen and (max-width: 2000px) {
+ .our_title {
+    font-size: 20px;
+    }
+    .logo {
+        width: 10%;
+        margin-left: 7%;
+    }  
+    .navbar-collapse {
+        margin: 0 140px;
+        font-size: 18px !important;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        width: 10%;
+        padding-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .our_title {
+        font-size: 14px;
+    }
+    .logo {
+        width: 12%;
+        margin-left: 4%;
+    }
+    .navbar-collapse {
+         margin: 0 140px;
+        font-size: 12px !important;
+    }
+    .collage {
+        max-width: 1500px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        width: 90px;
+        padding-top: 0;
+        padding-bottom: 3px;
+    }
+    .clear {
+        clear: both;
+        height: 30px;
+    }
+}
+
+
 /* Big tablet to 1200px (width smaller than 1140px row)*/
 
-@media only screen and (max-width: 1680px) {
-    
+    @media only screen and (max-width: 1360px) {
+    .our_title {
+        font-size: 15px;
+    }
+    .logo {
+        width: 170px;
+        margin-left: 4%;
+    }
+    .navbar-collapse {
+        margin-left: 5px;
+        font-size: 12px !important;
+    }
+    .collage {
+        max-width: 1500px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        width: 90px;
+        padding-top: 0;
+        padding-bottom: 3px;
+    }
+    .clear {
+        clear: both;
+        height: 30px;
+    }
+    .embed-responsive-4by3 {
+        padding-bottom: 60%;
+    }
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5 {
+        margin: 3px;
+        font-size: 20px;
+    }
+    .school-block__logo {
+        padding-bottom: 15px;
+    }
+    #map {
+        width: 1000px;
+        height: 500px;
+        border-radius: 1%;
+    }
+    #map2 {
+        width: 1000px;
+        height: 500px;
+        border-radius: 1%;
+    }
+    sl__news {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .sl__slide {
+        position: relative;
+    }
+    .sl__img {
+        height: 250px;
+        width: 250px;
+    }
+    .sl__slide p {
+        font-size: 17px;
+    }
 }
 
 
 /* Small tablets to big tablets: from 768px to 1023px*/
 
-@media only screen and (max-width: 1023px) {}
+@media only screen and (max-width: 1023px) {
+    .our_title {
+        font-size: 11px;
+    }
+    .logo {
+        width: 90px;
+        margin-left: 6%;
+    }
+    .navbar-collapse {
+        margin-left: 5px;
+        font-size: 11px !important;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .nav>li>a {
+        padding: 5px 7px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        width: 70px;
+        padding-top: 0;
+        padding-bottom: 3px;
+    }
+    .sl__news {
+        width: 75%;
+        margin: 20px auto;
+    }
+    .sl__slide {
+        position: relative;
+    }
+    .sl__img {
+        height: 250px;
+        width: 250px;
+    }
+    .sl__slide p {
+        font-size: 14px;
+    }
+    .clear {
+        clear: both;
+        height: 30px;
+    }
+    .embed-responsive-4by3 {
+        padding-bottom: 60%;
+    }
+    .coach_description {
+        font-size: 16px;
+    }
+    .school-block__logo {
+        padding-bottom: 15px;
+    }
+    .adverts li {
+        padding: 80px 15px 0px 45px;
+    }
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5 {
+        margin: 3px;
+        font-size: 18px;
+    }
+}
 
 
 /* Small phones to small tablets: from 481 to 767px*/
@@ -15,6 +184,9 @@
 @media only screen and (max-width: 767px) {
     .our_title {
         font-size: 10px;
+    }
+    .logo {
+    margin-left: 10%;    
     }
     .about-school>ul {
         padding-left: 0;
@@ -94,6 +266,18 @@
     }
     .header {
         text-align: center;
+    }
+    #map {
+        width: 720px;
+    }
+    #map2 {
+        width: 720px;
+    }
+    .coach_description {
+        font-size: 15px;
+    }
+    .adverts li {
+        padding: 50px 15px 0px 35px;
     }
 }
 
