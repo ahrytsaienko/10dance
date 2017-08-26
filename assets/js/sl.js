@@ -9,7 +9,7 @@ $(document).ready(function () {
         infinite: true,
         responsive: [
             {
-                breakpoint: 767,
+                breakpoint: 482,
                 settings: 'slick'
     },
             {
@@ -34,9 +34,10 @@ $(document).ready(function () {
 
 
 // ANIMATION
-
-$('.js--info').waypoint(function (direction) {
-    $('.js--info').addClass('animated bounceInDown');
+$(document).ready(function (direction) {
+$('.js--info').waypoint(function () {
+    $('.js--info').addClass('animated jackInTheBox');
 }, {
-    offset: '50%'
+    offset: '80%'
+});
 });
