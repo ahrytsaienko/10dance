@@ -33,11 +33,4 @@ $(document).ready(function () {
 
 
 
-// ANIMATION
-$(document).ready(function (direction) {
-$('.js--info').waypoint(function () {
-    $('.js--info').addClass('animated jackInTheBox');
-}, {
-    offset: '80%'
-});
-});
+
