@@ -19,28 +19,64 @@
 }
 */
 
-@media only screen and (max-width: 2000px) {
+@media only screen and (min-width: 1680px) {
     .our_title {
-        font-size: 15px;
+        font-size: 20px;
     }
     .logo {
         width: 12%;
         margin-left: 7%;
     }
     .navbar-collapse {
-        margin: 0 70px 0 80px;
-        font-size: 15px !important;
+        margin: 0 170px 0 200px;;
+        font-size: 18px !important;
     }
     .collage {
         max-width: 1500px;
     }
     .logos_WDSF,
     .logos_AUDSF {
-        width: 130px;
+        width: 150px;
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 3px;
+        text-align: right;
+    }
+    .logos_WDSF {
+        margin-top: 1%;
+    }
+    .clear {
+        clear: both;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 1679px) {
+    .our_title {
+        font-size: 18px;
+    }
+    .logo {
+        width: 11%;
+        margin-left: 6%;
+    }
+    .navbar-collapse {
+        margin: 0 70px;
+        font-size: 16px !important;
+    }
+    .collage {
+        max-width: 1500px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        width: 120px;
         height: auto;
         padding-top: 0;
         margin-top: 15px;
         padding-bottom: 3px;
+        text-align: right;
+    }
+    .logos_WDSF {
+        margin-top: 2%;
     }
     .clear {
         clear: both;
@@ -51,7 +87,7 @@
 
 /* Big tablet to 1200px (width smaller than 1140px row)*/
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1365px) {
     .our_title {
         font-size: 15px;
     }
@@ -207,9 +243,12 @@
 @media only screen and (max-width: 767px) {
     .our_title {
         font-size: 10px;
+        opacity: 0;
     }
     .logo {
-        margin-left: 10%;
+        margin-left: 13%;
+        margin-top: 3%;
+        width: 130px;
     }
     .about-school>ul {
         padding-left: 0;
