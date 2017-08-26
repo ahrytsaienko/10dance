@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" type="image/jpg" href="assets/img/main/main_label_only.jpg">
-    <title>РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ (Bous Dance Club). Р‘Р°Р»СЊРЅС‹Рµ С‚Р°РЅС†С‹ РџРѕР·РЅСЏРєРё</title>
+    <title>Танцювальна школа Ірени Бусь (Bous Dance Club). Бальные танцы Позняки</title>
 
 
     <!--<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-theme.min.css">-->
@@ -34,7 +34,7 @@
         <div class="container-fluid">
             <div class="logo">
                 <a href="index.html"><img src="assets/img/main/main_logo.jpg" class="img-responsive"></a>
-                <p class="text-center our_title hidden-xs"><strong>РљР»СѓР± СЃРїРѕСЂС‚РёРІРЅРѕРіРѕ Р±Р°Р»СЊРЅРѕРіРѕ С‚Р°РЅС†СЋ</strong></p>
+                <p class="text-center our_title hidden-xs"><strong>Клуб спортивного бального танцю</strong></p>
             </div>
 
 
@@ -49,13 +49,13 @@
                 </div>
                 <div id="myNavbar" class="collapse navbar-collapse">
                     <ul class="nav nav-pills text-uppercase">
-                        <li><a href="index.html">Р“РѕР»РѕРІРЅР°</a></li>
-                        <li><a href="about_us.html">РџСЂРѕ РЅР°СЃ</a></li>
-                        <li class="active"><a href="news.html">РќРѕРІРёРЅРё</a></li>
-                        <li><a href="gallery.html">Р“Р°Р»РµСЂРµСЏ</a></li>
-                        <li><a href="timetable.html">Р РѕР·РєР»Р°Рґ</a></li>
-                        <li><a href="rules.html">РџСЂР°РІРёР»Р°</a></li>
-                        <li><a href="contacts.html">РљРѕРЅС‚Р°РєС‚Рё</a></li>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="about_us.html">Про нас</a></li>
+                        <li class="active"><a href="news.html">Новини</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="timetable.html">Розклад</a></li>
+                        <li><a href="rules.html">Правила</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
                     </ul>
                 </div>
             </div>
@@ -81,13 +81,13 @@
                 </div>
                 <div id="myNavbar2" class="collapse navbar-collapse navbar-center">
                     <ul class="nav nav-pills text-uppercase">
-                        <li><a href="index.html">Р“РѕР»РѕРІРЅР°</a></li>
-                        <li><a href="about_us.html">РџСЂРѕ РЅР°СЃ</a></li>
-                        <li class="active"><a href="news.html">РќРѕРІРёРЅРё</a></li>
-                        <li><a href="gallery.html">Р“Р°Р»РµСЂРµСЏ</a></li>
-                        <li><a href="timetable.html">Р РѕР·РєР»Р°Рґ</a></li>
-                        <li><a href="rules.html">РџСЂР°РІРёР»Р°</a></li>
-                        <li><a href="contacts.html">РљРѕРЅС‚Р°РєС‚Рё</a></li>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="about_us.html">Про нас</a></li>
+                        <li class="active"><a href="news.html">Новини</a></li>
+                        <li><a href="gallery.html">Галерея</a></li>
+                        <li><a href="timetable.html">Розклад</a></li>
+                        <li><a href="rules.html">Правила</a></li>
+                        <li><a href="contacts.html">Контакти</a></li>
                     </ul>
                 </div>
             </div>
@@ -119,13 +119,13 @@
             </div>
             <div id="myNavbar2" class="collapse navbar-collapse">
                 <ul class="nav nav-pills text-uppercase">
-                    <li><a href="index.html">Р“РѕР»РѕРІРЅР°</a></li>
-                    <li><a href="about_us.html">РџСЂРѕ РЅР°СЃ</a></li>
-                    <li class="active"><a href="news.html">РќРѕРІРёРЅРё</a></li>
-                    <li><a href="gallery.html">Р“Р°Р»РµСЂРµСЏ</a></li>
-                    <li><a href="timetable.html">Р РѕР·РєР»Р°Рґ</a></li>
-                    <li><a href="rules.html">РџСЂР°РІРёР»Р°</a></li>
-                    <li><a href="contacts.html">РљРѕРЅС‚Р°РєС‚Рё</a></li>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about_us.html">Про нас</a></li>
+                    <li class="active"><a href="news.html">Новини</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="timetable.html">Розклад</a></li>
+                    <li><a href="rules.html">Правила</a></li>
+                    <li><a href="contacts.html">Контакти</a></li>
                 </ul>
             </div>
         </div>
@@ -145,12 +145,12 @@
                   <!--POST # 1 UKRAINE CHAMPIONS 2017-->
                    
                     <article class="news ukraine_champions_2017 competition-results-category competition-tag">
-                        <h1 class="news__header">Р§РµРјРїРёРѕРЅР°С‚ РЈРєСЂР°С—РЅРё 2017</h1>
+                        <h1 class="news__header">Чемпионат України 2017</h1>
                         <div class="row">
                             <div class="group1 col-sm-6 col-md-6">
-                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a>
-                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Р—РјР°РіР°РЅРЅСЏ</a>,
-                                <a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a>, <a href="#">Р‘Р°Р»СЊРЅС– С‚Р°РЅС†С–</a>
+                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Результати змагань</a>
+                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Змагання</a>,
+                                <a href="#">Танцювальна школа Ірени Бусь</a>, <a href="#">Бальні танці</a>
                             </div>
                         </div>
                         <br>
@@ -165,7 +165,7 @@
                                 <img class="img-responsive" src="assets/img/news/ukraine_champions_2017/6.jpg" alt="Photo 4">
                             </div>
                             <p class="news__ukraine_champions_2017 more-news-btn">
-                                <a class="btn btn-default btn-color">Р§РёС‚Р°С‚Рё РґР°Р»С–</a>
+                                <a class="btn btn-default btn-color">Читати далі</a>
                             </p>
 
                         </div>
@@ -175,12 +175,12 @@
                     <!--POST # 2 CRYSTAL CUP 2017-->
 
                     <article class="news crystal-cup competition-results-category competition-tag">
-                        <h1 class="news__header">Crystal Cup 2017 (Рј. Р–РёС‚РѕРјРёСЂ) 13/03/2017</h1>
+                        <h1 class="news__header">Crystal Cup 2017 (м. Житомир) 13/03/2017</h1>
                         <div class="row">
                             <div class="group1 col-sm-6 col-md-6">
-                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a>
-                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Р—РјР°РіР°РЅРЅСЏ</a>,
-                                <a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a>, <a href="#">Р‘Р°Р»СЊРЅС– С‚Р°РЅС†С–</a>
+                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Результати змагань</a>
+                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Змагання</a>,
+                                <a href="#">Танцювальна школа Ірени Бусь</a>, <a href="#">Бальні танці</a>
                             </div>
                         </div>
                         <br>
@@ -194,7 +194,7 @@
                                 <img class="img-responsive" src="assets/img/news/crystal_cup/crystal_cup_4.jpg" alt="Photo 4">
                             </div>
                             <p class="news__crystal-cup more-news-btn">
-                                <a class="btn btn-default btn-color">Р§РёС‚Р°С‚Рё РґР°Р»С–</a>
+                                <a class="btn btn-default btn-color">Читати далі</a>
                             </p>
 
                         </div>
@@ -204,12 +204,12 @@
                     <!--POST # 3 UKRAINE CUP 2017 (JUNIORS)-->
 
                     <article class="news ukraine-cup-2017-juniors competition-results-category competition-tag">
-                        <h1 class="news__header">РљСѓР±РѕРє РЈРєСЂР°С—РЅРё 2017 (Рј. РљРёС—РІ) 26/02/2017 </h1>
+                        <h1 class="news__header">Кубок України 2017 (м. Київ) 26/02/2017 </h1>
                         <div class="row">
                             <div class="group1 col-sm-6 col-md-6">
-                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a>
-                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Р—РјР°РіР°РЅРЅСЏ</a>,
-                                <a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a>, <a href="#">Р‘Р°Р»СЊРЅС– С‚Р°РЅС†С–</a>
+                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Результати змагань</a>
+                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Змагання</a>,
+                                <a href="#">Танцювальна школа Ірени Бусь</a>, <a href="#">Бальні танці</a>
                             </div>
                         </div>
                         <br>
@@ -227,7 +227,7 @@
                                 <img class="img-responsive" src="assets/img/news/ukraine_cup_2017_junior/UK2017_junior_8.jpg" alt="Tournament photo 8">
                             </div>
                             <p class="news__ukraine-cup-2017-juniors more-news-btn">
-                                <a class="btn btn-default btn-color">Р§РёС‚Р°С‚Рё РґР°Р»С–</a>
+                                <a class="btn btn-default btn-color">Читати далі</a>
                             </p>
                         </div>
                     </article>
@@ -235,12 +235,12 @@
                     <!--POST # 4 AMATEUR CUP 2016-->
 
                     <article class="news amateur-cup-2016 competition-results-category competition-tag">
-                        <h1 class="news__header">РљСѓР±РѕРє РђРјР°С‚РѕСЂР° 2016</h1>
+                        <h1 class="news__header">Кубок Аматора 2016</h1>
                         <div class="row">
                             <div class="group1 col-sm-6 col-md-6">
-                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a>
-                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Р—РјР°РіР°РЅРЅСЏ</a>,
-                                <a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a>, <a href="#">Р‘Р°Р»СЊРЅС– С‚Р°РЅС†С–</a>
+                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Результати змагань</a>
+                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Змагання</a>,
+                                <a href="#">Танцювальна школа Ірени Бусь</a>, <a href="#">Бальні танці</a>
                             </div>
                         </div>
                         <br>
@@ -251,7 +251,7 @@
                                 <img class="img-responsive" src="assets/img/news/amateur%20cup/amateur_cup_2.jpg" alt="Amateur cup photo 1">
                             </div>
                             <p class="news__amateur-cup-2016 more-news-btn">
-                                <a class="btn btn-default btn-color">Р§РёС‚Р°С‚Рё РґР°Р»С–</a>
+                                <a class="btn btn-default btn-color">Читати далі</a>
                             </p>
                         </div>
                     </article>
@@ -259,12 +259,12 @@
                     <!--POST # 5 TITLES-OF-UKRAINE-2016 -->
 
                     <article class="news titles-of-ukraine-2016 competition-results-category competition-tag">
-                        <h1 class="news__header">РљСѓР±РѕРє РђРјР°С‚РѕСЂР° 2016</h1>
+                        <h1 class="news__header">Кубок Аматора 2016</h1>
                         <div class="row">
                             <div class="group1 col-sm-6 col-md-6">
-                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a>
-                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Р—РјР°РіР°РЅРЅСЏ</a>,
-                                <a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a>, <a href="#">Р‘Р°Р»СЊРЅС– С‚Р°РЅС†С–</a>
+                                <span class="glyphicon glyphicon-folder-open"></span> <a href="#">Результати змагань</a>
+                                <span class="glyphicon glyphicon-bookmark"></span> <a href="#">Змагання</a>,
+                                <a href="#">Танцювальна школа Ірени Бусь</a>, <a href="#">Бальні танці</a>
                             </div>
                         </div>
                         <br>
@@ -279,7 +279,7 @@
                                 <img class="img-responsive" src="assets/img/news/titles_of_Ukraine-2016/6.jpg" alt="Titles photo 6">
                             </div>
                             <p class="news__titles-of-ukraine-2016 more-news-btn">
-                                <a class="btn btn-default btn-color">Р§РёС‚Р°С‚Рё РґР°Р»С–</a>
+                                <a class="btn btn-default btn-color">Читати далі</a>
                             </p>
                         </div>
                     </article>
@@ -295,42 +295,42 @@
                     <!--        otther comments           -->
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4>РћСЃС‚Р°РЅРЅС– РЅРѕРІРёРЅРё</h4>
+                            <h4>Останні новини</h4>
                         </div>
                         <ul class="list-group">
-                            <li class="list-group-item hide_event crystal-cup"><a href="#">Crystal Cup 2017 (Рј. Р–РёС‚РѕРјРёСЂ) 03.03.2017</a></li>
-                            <li class="list-group-item"><a href="#">Р›СЊРІС–РІ Р›С–РґРµСЂ 2017 (Рј. Р›СЊРІС–РІ) 26.02.2017</a></li>
-                            <li class="list-group-item"><a href="#">РљСѓР±РѕРє РЈРєСЂР°С—РЅРё 2017 26.02.2017</a></li>
-                            <li class="list-group-item"><a href="#">РљСѓР±РѕРє РђРјР°С‚РѕСЂР° 2016 29.10.2016</a></li>
-                            <li class="list-group-item"><a href="#">РўРёС‚СѓР»Рё РЈРєСЂР°С—РЅРё 2016 09.10.2016</a></li>
-                            <li class="list-group-item"><a href="#">Р¤РѕС‚Рѕ Р·С– СЃРїРѕСЂС‚РёРІРЅРёС… Р·Р±РѕСЂС–РІ Сѓ С‚Р°Р±РѕСЂС– Р—РјС–РЅР°"08.07.2016</a></li>
+                            <li class="list-group-item hide_event crystal-cup"><a href="#">Crystal Cup 2017 (м. Житомир) 03.03.2017</a></li>
+                            <li class="list-group-item"><a href="#">Львів Лідер 2017 (м. Львів) 26.02.2017</a></li>
+                            <li class="list-group-item"><a href="#">Кубок України 2017 26.02.2017</a></li>
+                            <li class="list-group-item"><a href="#">Кубок Аматора 2016 29.10.2016</a></li>
+                            <li class="list-group-item"><a href="#">Титули України 2016 09.10.2016</a></li>
+                            <li class="list-group-item"><a href="#">Фото зі спортивних зборів у таборі Зміна"08.07.2016</a></li>
                         </ul>
                     </div>
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4>РљР°С‚РµРіРѕСЂС–С—</h4>
+                            <h4>Категорії</h4>
                         </div>
                         <ul class="list-group">
-                            <li class="list-group-item hide_event competition-results-category"><a href="#">Р РµР·СѓР»СЊС‚Р°С‚Рё Р·РјР°РіР°РЅСЊ</a></li>
-                            <li class="list-group-item"><a href="#">РћРіРѕР»РѕС€РµРЅРЅСЏ</a></li>
-                            <li class="list-group-item"><a href="#">РџРѕРґС–С—</a></li>
+                            <li class="list-group-item hide_event competition-results-category"><a href="#">Результати змагань</a></li>
+                            <li class="list-group-item"><a href="#">Оголошення</a></li>
+                            <li class="list-group-item"><a href="#">Події</a></li>
                         </ul>
                     </div>
 
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4>#РўРµРіРё</h4>
+                            <h4>#Теги</h4>
                         </div>
                         <div class="panel-body">
                             <ul class="list-inline">
                                 <li><a href="#">Bous dance club</a></li>
-                                <li class="hide_event competition-tag"><a href="#">Р—РјР°РіР°РЅРЅСЏ</a></li>
-                                <li><a href="#">РљСѓР±РѕРє РЈРєСЂР°С—РЅРё 2017</a></li>
-                                <li><a href="#">РџСЂРѕС„РµСЃС–РѕРЅР°Р»Рё</a></li>
-                                <li><a href="#">РўР°РЅС†СЋРІР°Р»СЊРЅР° С€РєРѕР»Р° Р†СЂРµРЅРё Р‘СѓСЃСЊ</a></li>
-                                <li><a href="#">Р§РµРјРїС–РѕРЅР°С‚ РЈРєСЂР°С—РЅРё 2016</a></li>
-                                <li><a href="#">СЃР±РѕСЂРё</a></li>
-                                <li><a href="#">Р±Р°Р»СЊРЅС– С‚Р°РЅС†С–</a></li>
+                                <li class="hide_event competition-tag"><a href="#">Змагання</a></li>
+                                <li><a href="#">Кубок України 2017</a></li>
+                                <li><a href="#">Професіонали</a></li>
+                                <li><a href="#">Танцювальна школа Ірени Бусь</a></li>
+                                <li><a href="#">Чемпіонат України 2016</a></li>
+                                <li><a href="#">сбори</a></li>
+                                <li><a href="#">бальні танці</a></li>
                             </ul>
                         </div>
                     </div>
@@ -338,36 +338,36 @@
 
 
                 <div class="col-lg-4">
-                    <h3 class="text-center">РџРѕС€СѓРє РїР°СЂС‚РЅРµСЂР°!</h3>
+                    <h3 class="text-center">Пошук партнера!</h3>
                     <div class="pre-scrollable">
                         <ul class="adverts">
                             <li>
-                                <p>РљР°С‚РµСЂРёРЅР°, 2009 СЂ.РЅ. Р—СЂС–СЃС‚ 155 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"</p><img src="assets/img/news/Advertisement/2.jpg" class="img-responsive"></li>
+                                <p>Катерина, 2009 р.н. Зріст 155 см, танцювальний клас "Н"</p><img src="assets/img/news/Advertisement/2.jpg" class="img-responsive"></li>
                             <li>
-                                <p>Р„Р»РёР·Р°РІРµС‚Р°, 2008 СЂ.РЅ. Р—СЂС–СЃС‚ 152 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"</p><img src="assets/img/news/Advertisement/3.jpg" class="img-responsive"></li>
+                                <p>Єлизавета, 2008 р.н. Зріст 152 см, танцювальний клас "Н"</p><img src="assets/img/news/Advertisement/3.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РћР»РµРєСЃР°РЅРґСЂР°, 2007 СЂ.РЅ. Р—СЂС–СЃС‚ 153 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"-"Р•"</p><img src="assets/img/news/Advertisement/4.jpg" class="img-responsive"></li>
+                                <p>Олександра, 2007 р.н. Зріст 153 см, танцювальний клас "Н"-"Е"</p><img src="assets/img/news/Advertisement/4.jpg" class="img-responsive"></li>
                             <li>
-                                <p>Р•РјС–Р»С–СЏ, 2011 СЂ.РЅ. Р—СЂС–СЃС‚ 148 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "РЁРєРѕР»Р°"-"Рќ"</p><img src="assets/img/news/Advertisement/1.jpg" class="img-responsive"></li>
+                                <p>Емілія, 2011 р.н. Зріст 148 см, танцювальний клас "Школа"-"Н"</p><img src="assets/img/news/Advertisement/1.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РљСЃРµРЅС–СЏ 2008 СЂ.РЅ. Р—СЂС–СЃС‚ 155 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"</p><img src="assets/img/news/Advertisement/5.jpg" class="img-responsive"></li>
+                                <p>Ксенія 2008 р.н. Зріст 155 см, танцювальний клас "Н"</p><img src="assets/img/news/Advertisement/5.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РђРЅР°СЃС‚Р°СЃС–СЏ 2008 СЂ.РЅ. Р—СЂС–СЃС‚ 155 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Р•"</p><img src="assets/img/news/Advertisement/6.jpg" class="img-responsive"></li>
+                                <p>Анастасія 2008 р.н. Зріст 155 см, танцювальний клас "Е"</p><img src="assets/img/news/Advertisement/6.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РљСЂРёСЃС‚РёРЅР°, 2006 СЂ.РЅ. Р—СЂС–СЃС‚ 153, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Р•"-"Р”", С‚РµР». 063-332-98-47
+                                <p>Кристина, 2006 р.н. Зріст 153, танцювальний клас "Е"-"Д", тел. 063-332-98-47
                                 </p><img src="assets/img/news/Advertisement/7.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РђРЅР°СЃС‚Р°СЃС–СЏ, 2005 СЂ.РЅ. Р—СЂС–СЃС‚ 160 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"-"Р•"</p><img src="assets/img/news/Advertisement/8.jpg" class="img-responsive"></li>
+                                <p>Анастасія, 2005 р.н. Зріст 160 см, танцювальний клас "Н"-"Е"</p><img src="assets/img/news/Advertisement/8.jpg" class="img-responsive"></li>
                             <li>
-                                <p>Р”Р°СЂ'СЏ, 2008 СЂ.РЅ. Р—СЂС–СЃС‚ 145 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "РЁРєРѕР»Р°"-"Рќ"</p><img src="assets/img/news/Advertisement/9.jpg" class="img-responsive"></li>
+                                <p>Дар'я, 2008 р.н. Зріст 145 см, танцювальний клас "Школа"-"Н"</p><img src="assets/img/news/Advertisement/9.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РњР°СЂРёРЅР°, 2009 СЂ.РЅ. Р—СЂС–СЃС‚ 125 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "РЁРєРѕР»Р°"-"Рќ"</p><img src="assets/img/news/Advertisement/10.jpg" class="img-responsive"></li>
+                                <p>Марина, 2009 р.н. Зріст 125 см, танцювальний клас "Школа"-"Н"</p><img src="assets/img/news/Advertisement/10.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РњР°СЂРіР°СЂРёС‚Р°, 2011 СЂ.РЅ. Р—СЂС–СЃС‚ 100 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "РЁРєРѕР»Р°"</p><img src="assets/img/news/Advertisement/11.jpg" class="img-responsive"></li>
+                                <p>Маргарита, 2011 р.н. Зріст 100 см, танцювальний клас "Школа"</p><img src="assets/img/news/Advertisement/11.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РњР°СЂС–СЏ 2009 СЂ.РЅ. Р—СЂС–СЃС‚ 154 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"</p><img src="assets/img/news/Advertisement/12.jpg" class="img-responsive"></li>
+                                <p>Марія 2009 р.н. Зріст 154 см, танцювальний клас "Н"</p><img src="assets/img/news/Advertisement/12.jpg" class="img-responsive"></li>
                             <li>
-                                <p>РњР°СЂС–СЏ, 2010 СЂ.РЅ. Р—СЂС–СЃС‚ 149 СЃРј, С‚Р°РЅС†СЋРІР°Р»СЊРЅРёР№ РєР»Р°СЃ "Рќ"</p><img src="assets/img/news/Advertisement/13.jpg" class="img-responsive"></li>
+                                <p>Марія, 2010 р.н. Зріст 149 см, танцювальний клас "Н"</p><img src="assets/img/news/Advertisement/13.jpg" class="img-responsive"></li>
                         </ul>
                     </div>
                 </div>
