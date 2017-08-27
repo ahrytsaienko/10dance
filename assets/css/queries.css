@@ -236,6 +236,7 @@
     .social ul li {
         padding: 5px;
     }
+    
 }
 
 
@@ -341,6 +342,11 @@
     .search-partners li {
         padding: 50px 15px 0px 35px;
     }
+    
+        .news__hidden {
+    width: 370px !important;
+    height: auto !important;
+}
 }
 
 
@@ -352,6 +358,7 @@
         display: flex;
         justify-content: space-around;
     }
+    
 }
 
 
@@ -397,9 +404,6 @@
         width: 200px;
     }
     .sl__slide p {
-        font-size: 12px;
-    }
-    .upper-header p {
         font-size: 12px;
     }
 }
@@ -449,6 +453,11 @@
     .sl__slide p {
         font-size: 13px;
     }
+	    .news__hidden {
+    width: 330px !important;
+    height: auto !important;
+}
+
     th {
         font-size: 12px;
         text-align: center;
