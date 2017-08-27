@@ -5,8 +5,7 @@ body {
 /*    height: 100%;*/
     min-height: 100vh;
     background: #ffffff;
-/*    font-family: 'Bitter', serif;*/
-    font-family: serif;
+    font-family: 'Bitter', serif;
 }
 
 h2 {
@@ -218,7 +217,11 @@ h3:after {
 .affix {
     top: 0;
     width: 120%;
+<<<<<<< HEAD
     left: -10%;
+=======
+    left: -5%;
+>>>>>>> t: affix
     padding-left: 24%;
     position: fixed;
     z-index: 9999;
@@ -348,7 +351,7 @@ footer {
 }
 
 .nav>li>a {
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 .nav-pills li a {

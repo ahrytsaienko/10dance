@@ -5,8 +5,7 @@ body {
 /*    height: 100%;*/
     min-height: 100vh;
     background: #ffffff;
-/*    font-family: 'Bitter', serif;*/
-    font-family: serif;
+    font-family: 'Bitter', serif;
 }
 
 h2 {
@@ -348,7 +347,7 @@ footer {
 }
 
 .nav>li>a {
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 .nav-pills li a {

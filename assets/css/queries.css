@@ -1,24 +1,3 @@
-/*
-@media only screen and (min-width: 1401px) {
-    .our_title {
-        font-size: 20px;
-    }
-    .logo {
-        width: 10%;
-        margin-left: 7%;
-    }
-    .navbar-collapse {
-        margin: 0 140px;
-        font-size: 18px !important;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        width: 10%;
-        padding-top: 2%;
-    }
-}
-*/
-
 @media only screen and (min-width: 1680px) {
     .our_title {
         font-size: 20px;
@@ -236,7 +215,6 @@
     .social ul li {
         padding: 5px;
     }
-    
 }
 
 
@@ -342,11 +320,10 @@
     .search-partners li {
         padding: 50px 15px 0px 35px;
     }
-    
-        .news__hidden {
-    width: 370px !important;
-    height: auto !important;
-}
+    .news__hidden {
+        width: 370px !important;
+        height: auto !important;
+    }
 }
 
 
@@ -358,7 +335,6 @@
         display: flex;
         justify-content: space-around;
     }
-    
 }
 
 
@@ -404,6 +380,9 @@
         width: 200px;
     }
     .sl__slide p {
+        font-size: 12px;
+    }
+    .upper-header p {
         font-size: 12px;
     }
 }
@@ -453,11 +432,10 @@
     .sl__slide p {
         font-size: 13px;
     }
-	    .news__hidden {
-    width: 330px !important;
-    height: auto !important;
-}
-
+    .news__hidden {
+        width: 330px !important;
+        height: auto !important;
+    }
     th {
         font-size: 12px;
         text-align: center;
@@ -469,4 +447,12 @@
     .upper-header p {
         font-size: 11px;
     }
+    .affix {
+    top: 0;
+    width: 110%;
+    left: -10%;
+    padding-left: 24%;
+    position: fixed;
+    z-index: 9999;
+}
 }

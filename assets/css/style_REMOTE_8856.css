@@ -5,12 +5,7 @@ body {
 /*    height: 100%;*/
     min-height: 100vh;
     background: #ffffff;
-/*    font-family: 'Bitter', serif;*/
-    font-family: serif;
-}
-
-h2 {
-    margin-top: 0px;
+    font-family: 'Bitter', serif;
 }
 
 h2:after {
@@ -218,7 +213,7 @@ h3:after {
 .affix {
     top: 0;
     width: 120%;
-    left: -10%;
+    left: -5%;
     padding-left: 24%;
     position: fixed;
     z-index: 9999;
@@ -240,8 +235,8 @@ h3:after {
 
 .collage img {
     overflow: hidden;
-    padding:0;
-    max-height: 500px;
+    padding: 0;
+    max-height: 450px;
     width: 1500px;
 }
 
@@ -348,7 +343,7 @@ footer {
 }
 
 .nav>li>a {
-    padding: 10px 10px;
+    padding: 10px 15px;
 }
 
 .nav-pills li a {
@@ -432,8 +427,7 @@ footer {
 }
 
 .news__hidden {
-    width: 550px !important;
-    height: auto !important;
+    width: 550px;
 }
 
 .panel-heading h4 {
@@ -460,12 +454,10 @@ footer {
     color: #ffffff !important;
 }
 
-/*
 .news__crystal-cup-slick,
 .news__ukraine-cup-2017-juniors-slick {
     width: 550px;
 }
-*/
 
 .search-partners li {
     list-style: none;
