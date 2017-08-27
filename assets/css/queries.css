@@ -28,7 +28,8 @@
         margin-left: 7%;
     }
     .navbar-collapse {
-        margin: 0 170px 0 200px;;
+        margin: 0 170px 0 200px;
+        ;
         font-size: 18px !important;
     }
     .collage {
@@ -243,7 +244,6 @@
 @media only screen and (max-width: 767px) {
     .our_title {
         font-size: 10px;
-        opacity: 0;
     }
     .logo {
         margin-left: 13%;
@@ -357,11 +357,93 @@
 
 /* Small phones: from 0 to 480px*/
 
-@media only screen and (max-width: 481px) {
+@media only screen and (max-width: 580px) {
     section {
         padding: 25px 0;
     }
     .contact-form {
         width: 100%;
+    }
+    .our_title {
+        font-size: 10px;
+    }
+    .logo {
+        margin-left: 10%;
+        margin-top: 4%;
+        width: 100px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        float: left;
+        width: 90px;
+        height: auto;
+        padding-top: 1%;
+        margin-left: 7%;
+        margin-right: 5%;
+    }
+    .logos_WDSF {
+        margin-top: 3%;
+        margin-left: 10%;
+    }
+    sl__news {
+        width: 120%;
+        margin: 10px auto;
+    }
+    .sl__slide {
+        position: relative;
+    }
+    .sl__img {
+        height: 200px;
+        width: 200px;
+    }
+    .sl__slide p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        padding: 25px 0;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .our_title {
+        font-size: 10px;
+    }
+    .logo {
+        margin-left: 12%;
+        margin-top: 4%;
+        width: 90px;
+    }
+    .logos_WDSF,
+    .logos_AUDSF {
+        float: left;
+        width: 90px;
+        height: auto;
+        margin-right: 3%;
+    }
+    .logos_AUDSF {
+        padding-top: 1%;
+        margin-left: 3%;
+    }
+    .logos_WDSF {
+        margin-top: 3%;
+        margin-left: 6%;
+    }
+    sl__news {
+        width: 120%;
+        margin: 10px 0;
+        margin-left: 20px;
+    }
+    .sl__slide {
+        position: relative;
+    }
+    .sl__img {
+        height: 250px;
+        width: 250px;
+    }
+    .sl__slide p {
+        font-size: 13px;
     }
 }
