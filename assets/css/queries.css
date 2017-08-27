@@ -54,7 +54,7 @@
 
 @media only screen and (max-width: 1679px) {
     .our_title {
-        font-size: 18px;
+        font-size: 17px;
     }
     .logo {
         width: 11%;
@@ -399,6 +399,9 @@
     .sl__slide p {
         font-size: 12px;
     }
+    .upper-header p {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -453,5 +456,8 @@
     tr {
         font-size: 10px;
         text-align: center;
-    }    
+    }
+    .upper-header p {
+        font-size: 11px;
+    }
 }

@@ -186,9 +186,9 @@ h3:after {
 
 /*------------------------------------- HEADER -------------------------------------------*/
 
-.upper-header {
+.upper-header p {
     padding-top: 1%;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .logo {
@@ -199,7 +199,7 @@ h3:after {
 }
 
 .our_title {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .logos_WDSF,
@@ -220,7 +220,7 @@ h3:after {
 
 .affix+.container-fluid {
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 
 
@@ -462,7 +462,7 @@ footer {
     list-style: none;
     max-width: 110%;
     margin: -10% !important;
-    padding: 50px 15px 0px 15px;
+    padding: 35px 15px 0px 15px;
 }
 
 .search-partners p {
