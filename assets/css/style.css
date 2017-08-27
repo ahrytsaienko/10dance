@@ -8,6 +8,10 @@ body {
     font-family: 'Bitter', serif;
 }
 
+h2 {
+    margin-top: 0px;
+}
+
 h2:after {
     display: block;
     height: 2px;
@@ -69,6 +73,7 @@ h3:after {
     top: 50px;
     width: 50px;
     height: 50px;
+    z-index: 9999;
 }
 
 .social ul {
@@ -185,9 +190,9 @@ h3:after {
 
 /*------------------------------------- HEADER -------------------------------------------*/
 
-.upper-header {
+.upper-header p {
     padding-top: 1%;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .logo {
@@ -198,7 +203,7 @@ h3:after {
 }
 
 .our_title {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .logos_WDSF,
@@ -213,13 +218,13 @@ h3:after {
     top: 0;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
     margin-left: -15px;
 }
 
 .affix+.container-fluid {
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 150px;
 }
 
 
@@ -329,7 +334,7 @@ h3:after {
 footer {
     color: #efefef;
     background-color: #0d0d0d;
-    padding: 17px 0 18px 0;
+    padding: 12px 0;
     border-top: 1px solid #000;
 }
 
@@ -460,14 +465,14 @@ footer {
 }
 */
 
-.adverts li {
+.search-partners li {
     list-style: none;
     max-width: 110%;
     margin: -10% !important;
-    padding: 50px 15px 0px 15px;
+    padding: 35px 15px 0px 15px;
 }
 
-.adverts p {
+.search-partners p {
     font-size: 19px;
 }
 
