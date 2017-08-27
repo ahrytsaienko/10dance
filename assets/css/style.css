@@ -69,6 +69,7 @@ h3:after {
     top: 50px;
     width: 50px;
     height: 50px;
+    z-index: 9999;
 }
 
 .social ul {
@@ -213,7 +214,7 @@ h3:after {
     top: 0;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 9999;
     margin-left: -15px;
 }
 
@@ -329,7 +330,7 @@ h3:after {
 footer {
     color: #efefef;
     background-color: #0d0d0d;
-    padding: 17px 0 18px 0;
+    padding: 12px 0;
     border-top: 1px solid #000;
 }
 
@@ -457,14 +458,14 @@ footer {
     width: 550px;
 }
 
-.adverts li {
+.search-partners li {
     list-style: none;
     max-width: 110%;
     margin: -10% !important;
     padding: 50px 15px 0px 15px;
 }
 
-.adverts p {
+.search-partners p {
     font-size: 19px;
 }
 

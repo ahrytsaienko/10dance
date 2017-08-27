@@ -153,13 +153,13 @@
     .sl__slide p {
         font-size: 17px;
     }
-    .adverts li {
+    .search-partners li {
         list-style: none;
         max-width: 110%;
         margin: -10% !important;
         padding: 35px 15px 0px 10px;
     }
-    .adverts p {
+    .search-partners p {
         font-size: 17px;
     }
 }
@@ -217,7 +217,7 @@
     .school-block__logo {
         padding-bottom: 15px;
     }
-    .adverts li {
+    .search-partners li {
         padding: 80px 15px 0px 45px;
     }
     .box-1,
@@ -338,7 +338,7 @@
     .coach_description {
         font-size: 15px;
     }
-    .adverts li {
+    .search-partners li {
         padding: 50px 15px 0px 35px;
     }
 }
@@ -446,4 +446,12 @@
     .sl__slide p {
         font-size: 13px;
     }
+    th {
+        font-size: 12px;
+        text-align: center;
+    }
+    tr {
+        font-size: 10px;
+        text-align: center;
+    }    
 }
