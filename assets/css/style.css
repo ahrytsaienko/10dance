@@ -216,10 +216,11 @@ h3:after {
 }
 .affix {
     top: 0;
-    width: 100%;
+    width: 120%;
+    left: -10%;
+    padding-left: 24%;
     position: fixed;
     z-index: 9999;
-    margin-left: -15px;
 }
 
 .affix+.container-fluid {
