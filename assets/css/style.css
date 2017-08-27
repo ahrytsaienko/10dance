@@ -233,8 +233,8 @@ h3:after {
 
 .collage img {
     overflow: hidden;
-    padding: 0;
-    max-height: 450px;
+    padding:0;
+    max-height: 500px;
     width: 1500px;
 }
 
@@ -425,7 +425,8 @@ footer {
 }
 
 .news__hidden {
-    width: 550px;
+    width: 550px !important;
+    height: auto !important;
 }
 
 .panel-heading h4 {
@@ -452,10 +453,12 @@ footer {
     color: #ffffff !important;
 }
 
+/*
 .news__crystal-cup-slick,
 .news__ukraine-cup-2017-juniors-slick {
     width: 550px;
 }
+*/
 
 .adverts li {
     list-style: none;

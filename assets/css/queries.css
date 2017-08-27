@@ -236,6 +236,7 @@
     .social ul li {
         padding: 5px;
     }
+    
 }
 
 
@@ -341,6 +342,11 @@
     .adverts li {
         padding: 50px 15px 0px 35px;
     }
+    
+        .news__hidden {
+    width: 370px !important;
+    height: auto !important;
+}
 }
 
 
@@ -352,6 +358,7 @@
         display: flex;
         justify-content: space-around;
     }
+    
 }
 
 
@@ -399,6 +406,12 @@
     .sl__slide p {
         font-size: 12px;
     }
+    
+        .news__hidden {
+    width: 370px !important;
+    height: auto !important;
+}
+    
 }
 
 @media only screen and (max-width: 480px) {
@@ -446,4 +459,13 @@
     .sl__slide p {
         font-size: 13px;
     }
+    
+    .news__hidden {
+    width: 330px !important;
+    height: auto !important;
 }
+
+}
+
+
+
