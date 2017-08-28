@@ -2,10 +2,10 @@
 
 html,
 body {
-/*    height: 100%;*/
+    /*    height: 100%;*/
     min-height: 100vh;
     background: #ffffff;
-/*    font-family: 'Bitter', serif;*/
+    /*    font-family: 'Bitter', serif;*/
     font-family: serif;
 }
 
@@ -36,6 +36,11 @@ h2 {
     color: #000;
 }
 
+/*
+h2:after {
+    color: #000;
+}
+*/
 
 /*
 h3:after {
@@ -196,30 +201,15 @@ h3:after {
     font-size: 15px;
 }
 
-.logo {
-    float: left;
-    margin-left: 7%;
-    width: 150px;
-    height: auto;
-}
-
 .our_title {
     font-size: 15px;
 }
 
-.logos_WDSF,
-.logos_AUDSF {
-    float: left;
-    width: 150px;
-    height: auto;
-    padding-top: 1%;
-    margin-left: 1%;
-}
 .affix {
     top: 0;
-    width: 120%;
+    width: 110%;
     left: -10%;
-    padding-left: 24%;
+    padding-left: 35%;
     position: fixed;
     z-index: 9999;
 }
@@ -240,7 +230,7 @@ h3:after {
 
 .collage img {
     overflow: hidden;
-    padding:0;
+    padding: 0;
     max-height: 500px;
     width: 1500px;
 }
@@ -279,8 +269,9 @@ h3:after {
 }
 
 .sl__slide p {
-    font-size: 19px;
+    font-size: 17px;
 }
+
 
 /*------------------------------------- COACH-BLOCK -------------------------------------------*/
 
@@ -289,7 +280,7 @@ h3:after {
 }
 
 .coach_description {
-    font-size: 18px;   
+    font-size: 18px;
 }
 
 
@@ -307,7 +298,7 @@ h3:after {
 .box-5 {
     margin: 3px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background_small.jpg);
-/*    background: url(background_small.jpg);*/
+    /*    background: url(background_small.jpg);*/
     width: 100%;
     color: #ffffff;
     font-size: 26px;
@@ -348,7 +339,7 @@ footer {
 }
 
 .nav>li>a {
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 
 .nav-pills li a {
@@ -408,6 +399,7 @@ footer {
     text-align: center;
 }
 
+
 /* --------------------------------------- MAPS ----------------------------------------*/
 
 #map {
@@ -461,6 +453,7 @@ footer {
     color: #ffffff !important;
 }
 
+
 /*
 .news__crystal-cup-slick,
 .news__ukraine-cup-2017-juniors-slick {
@@ -487,7 +480,7 @@ footer {
     background-color: #ffeef2;
     word-break: normal !important;
     word-wrap: normal !important;
-/*    white-space: pre !important;*/
+    /*    white-space: pre !important;*/
     overflow-y: scroll;
 }
 
@@ -515,4 +508,3 @@ footer {
 .nav-stacked p {
     font-size: 17px;
 }
-
