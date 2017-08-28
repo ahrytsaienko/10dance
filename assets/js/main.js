@@ -121,17 +121,25 @@ $(document).ready(function () {
 
 //NEWS. Отборы по категориям, тегам.
 $(document).ready(function () {
-    var newsBlock, index, searchClass;
-    $('.hide_event').click(function () {
+    var newsBlock, index, searchClass, trigger;
+    $('.hide-event').click(function () {
         newsBlock = $('.news');
         index = this.classList.length - 1;
-        $('.news').hide();
+        trigger = false;
+        $(newsBlock).hide();
+        
         for (i = 0; i <= newsBlock.length; i++) {
             searchClass = this.classList[index];
             if ($(newsBlock[i]).hasClass(searchClass)) {
+                trigger = true;
                 $(newsBlock[i]).show();
             }
         }
+        
+        if (trigger === false) {
+           $(newsBlock).show(); 
+        }
+        
     });
 });
 
