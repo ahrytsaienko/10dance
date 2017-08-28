@@ -14,6 +14,11 @@
         clear: both;
         height: 30px;
     }
+    .social {
+        position: fixed;
+        top: 180px;
+        width: 10%;
+    }
 }
 
 @media only screen and (max-width: 1679px) {
