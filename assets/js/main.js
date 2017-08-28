@@ -3,7 +3,7 @@ $(document).ready(function () {
     $('.sl').slick({
         autoplay: true,
         arrows: false,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 5000,
         dots: true,
         slidesToShow: 2,
         slidesToScroll: 2,
@@ -33,14 +33,8 @@ $(document).ready(function () {
 
 
 
-
-// TODO
-// recode for es6
-// сделать колбек функцию для слика в методе toggle
-
-//MAP
+// MAP
 $(function () {
-
     function initMap() {
         var arr_maps, location, mapObject, mapCanvas, mapOption, map, marker;
 
@@ -69,7 +63,6 @@ $(function () {
     }
 
     function getMapProperties(mapName) {
-
         return {
             cordinates: mapName === 'map' ? [50.4133761, 30.6176347] : [50.434663, 30.62238],
             markerImage: 'marker-32.png',
@@ -80,10 +73,10 @@ $(function () {
     google.maps.event.addDomListener(window, 'load', initMap);
 });
 
+
+
 // NEWS
 // Slick block for news page.
-// Временная дока: В слике создать клас с суффиксом -slick, с именем первого класа кнопки
-// "Читать дальше"
 $(document).ready(function () {
     var slickClassName;
 
@@ -96,30 +89,11 @@ $(document).ready(function () {
             dots: $(slickClassName).is(':visible'),
         });
     });
-
-    // function cbSlick(fslickClassName) {
-    //     $(fslickClassName).slick({
-    //         autoplay: $(fslickClassName).is(':visible'),
-    //         dots: $(fslickClassName).is(':visible'),
-    //     });
-    // }
 });
 
-// Slick block for news page.
-// $(document).ready(function () {
-//     $('.post').hide();
-//     $('.cls').click(function () {
-//         $(this).prev().slideToggle('slow');
-//         $('.slick_news').slick({
-//             autoplay: true,
-//             dots: true
-//         });
-//     });
-// });
 
 
-
-//NEWS. Отборы по категориям, тегам.
+// NEWS. Отборы по категориям, тегам.
 $(document).ready(function () {
     var newsBlock, index, searchClass, trigger;
     $('.hide-event').click(function () {
@@ -127,7 +101,7 @@ $(document).ready(function () {
         index = this.classList.length - 1;
         trigger = false;
         $(newsBlock).hide();
-        
+
         for (i = 0; i <= newsBlock.length; i++) {
             searchClass = this.classList[index];
             if ($(newsBlock[i]).hasClass(searchClass)) {
@@ -135,16 +109,18 @@ $(document).ready(function () {
                 $(newsBlock[i]).show();
             }
         }
-        
+
         if (trigger === false) {
-           $(newsBlock).show(); 
+            $(newsBlock).show();
         }
-        
+
     });
 });
 
-//RULES.
-$(document).ready(function() {
+
+
+// RULES
+$(document).ready(function () {
     var options = {
         height: "1000px"
     }
@@ -152,5 +128,5 @@ $(document).ready(function() {
     PDFObject.embed("/assets/pdf/rules/age-category-inf.pdf", "#age-category-inf", options);
     PDFObject.embed("/assets/pdf/rules/dance-inf.pdf", "#dance-inf", options);
     PDFObject.embed("/assets/pdf/rules/clothes-inf.pdf", "#clothes-inf", options);
-    
+
 });

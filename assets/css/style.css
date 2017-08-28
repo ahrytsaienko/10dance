@@ -2,11 +2,16 @@
 
 html,
 body {
-    /*    height: 100%;*/
     min-height: 100vh;
     background: #ffffff;
-    /*    font-family: 'Bitter', serif;*/
-    font-family: serif;
+/*    font-family: 'Lora', serif;*/
+/*    font-family: 'PT Serif', serif;*/
+/*    font-family: 'Libre Baskerville', serif;*/
+/*    font-family: 'Crete Round', serif;*/
+/*    font-family: 'Vidaloka', serif;*/
+/*    font-family: 'Alice', serif;*/        /*вот этот вроде ниче*/
+/*    font-family: 'Sansita', sans-serif;*/
+    
 }
 
 h2 {
@@ -35,18 +40,6 @@ h2:after {
 h2 {
     color: #000;
 }
-
-/*
-h2:after {
-    color: #000;
-}
-*/
-
-/*
-h3:after {
-    margin-top: 15px !important;
-}
-*/
 
 h4 {
     color: #403c3c;
@@ -96,7 +89,6 @@ h3:after {
     margin: 5px;
     margin-left: 20px;
     background: rgba(199, 57, 57, 0.36);
-    /*    background: rgba(0, 0, 0, 0.36);*/
     width: 300px;
     text-align: right;
     padding: 10px;
@@ -126,7 +118,6 @@ h3:after {
 
 .social ul li:hover i {
     color: #000000;
-    /*  color: #fff;*/
     background: red;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -144,7 +135,6 @@ h3:after {
     margin-left: 10px;
     color: #000;
     background: red;
-    /*  background: #fff;*/
     padding: 10px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -168,18 +158,6 @@ h3:after {
     text-decoration: none;
     margin: 1px 1px;
 }
-
-
-/*
-.fa {
-    padding: 10px;
-    font-size: 25px !important;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 1px;
-}
-*/
 
 .fa:hover {
     opacity: 0.7;
@@ -250,10 +228,6 @@ h3:after {
 .sl__img {
     height: 400px;
     width: auto;
-    /*
-    height: auto;
-    max-width: 100%;
-*/
 }
 
 .our_video>iframe {
@@ -297,8 +271,7 @@ h3:after {
 .box-4,
 .box-5 {
     margin: 3px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background_small.jpg);
-    /*    background: url(background_small.jpg);*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(background.jpg);
     width: 100%;
     color: #ffffff;
     font-size: 26px;
@@ -437,13 +410,6 @@ footer {
     margin-top: 0;
 }
 
-
-/*
-.panel-heading h4 {
-    color: #000000;
-}
-*/
-
 .panel-heading {
     background-color: #ff0000 !important;
 }
@@ -452,14 +418,6 @@ footer {
     background-color: #ff0000 !important;
     color: #ffffff !important;
 }
-
-
-/*
-.news__crystal-cup-slick,
-.news__ukraine-cup-2017-juniors-slick {
-    width: 550px;
-}
-*/
 
 .search-partners li {
     list-style: none;
@@ -480,23 +438,8 @@ footer {
     background-color: #ffeef2;
     word-break: normal !important;
     word-wrap: normal !important;
-    /*    white-space: pre !important;*/
     overflow-y: scroll;
 }
-
-
-/*
-.list-group > li > a {
-    color:black ;
-}
-
-.list-inline > li > a {
-    color: black;
-}
-*/
-
-
-/* --------------------------------------- GALLERY ----------------------------------------*/
 
 
 /* --------------------------------------- RULES ----------------------------------------*/
