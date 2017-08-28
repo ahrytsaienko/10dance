@@ -477,9 +477,15 @@
     <!--///////////////////////////////////////////////////// END OF FOOTER ////////////////////////////////////////////////////-->
 
 
+<<<<<<< HEAD
     <!--///////////////////////////////////////////////// SCRIPTS ////////////////////////////////////////////////////-->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
     <!-- <script src="assets/js/bootstrap.js"></script>-->
+=======
+    <!--SCRIPTS-->
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>-->
+    <!--    <script src="assets/js/bootstrap.js"></script>-->
+>>>>>>> 89ec18c8aa9efe0e708a64a3f33dbb8dc0fb6e3a
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="assets/slick/slick.min.js"></script>
     <script src="assets/js/sl.js"></script>
