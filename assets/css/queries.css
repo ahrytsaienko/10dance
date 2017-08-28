@@ -2,28 +2,13 @@
     .our_title {
         font-size: 20px;
     }
-    .logo {
-        width: 12%;
-        margin-left: 7%;
-    }
     .navbar-collapse {
         margin: 0 170px 0 200px;
         ;
         font-size: 18px !important;
     }
     .collage {
-        max-width: 1500px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        width: 150px;
-        height: auto;
-        padding-top: 0;
-        padding-bottom: 3px;
-        text-align: right;
-    }
-    .logos_WDSF {
-        margin-top: 1%;
+        max-width: 1920px;
     }
     .clear {
         clear: both;
@@ -35,28 +20,12 @@
     .our_title {
         font-size: 17px;
     }
-    .logo {
-        width: 11%;
-        margin-left: 6%;
-    }
     .navbar-collapse {
         margin: 0 70px;
         font-size: 16px !important;
     }
     .collage {
-        max-width: 1500px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        width: 120px;
-        height: auto;
-        padding-top: 0;
-        margin-top: 15px;
-        padding-bottom: 3px;
-        text-align: right;
-    }
-    .logos_WDSF {
-        margin-top: 2%;
+        max-width: 1920px;
     }
     .clear {
         clear: both;
@@ -71,10 +40,6 @@
     .our_title {
         font-size: 15px;
     }
-    .logo {
-        width: 170px;
-        margin-left: 4%;
-    }
     .navbar-collapse {
         margin-right: 20px;
         margin-left: 5px;
@@ -82,13 +47,6 @@
     }
     .collage {
         max-width: 1500px;
-    }
-    .logos_WDSF {
-        margin-right: 100px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        width: 90px;
     }
     .clear {
         clear: both;
@@ -150,24 +108,11 @@
     .our_title {
         font-size: 11px;
     }
-    .logo {
-        width: 90px;
-        margin-left: 6%;
-    }
     .navbar-collapse {
         margin: 0 20px;
     }
     .nav>li>a {
         padding: 5px 7px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        width: 70px;
-        padding-top: 0;
-        padding-bottom: 3px;
-    }
-    .logos_AUDSF {
-        padding-bottom: 7px;
     }
     .sl__news {
         width: 75%;
@@ -224,11 +169,6 @@
     .our_title {
         font-size: 10px;
     }
-    .logo {
-        margin-left: 13%;
-        margin-top: 3%;
-        width: 130px;
-    }
     .about-school>ul {
         padding-left: 0;
     }
@@ -283,15 +223,6 @@
     .clear {
         clear: both;
         height: 30px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 100px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 11%;
-        margin-right: 5%;
     }
     .contact_head p {
         font-size: 15px;
@@ -350,24 +281,6 @@
     .our_title {
         font-size: 10px;
     }
-    .logo {
-        margin-left: 10%;
-        margin-top: 4%;
-        width: 100px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 90px;
-        height: auto;
-        padding-top: 1%;
-        margin-left: 7%;
-        margin-right: 5%;
-    }
-    .logos_WDSF {
-        margin-top: 3%;
-        margin-left: 10%;
-    }
     sl__news {
         width: 120%;
         margin: 10px auto;
@@ -396,26 +309,6 @@
     }
     .our_title {
         font-size: 10px;
-    }
-    .logo {
-        margin-left: 12%;
-        margin-top: 4%;
-        width: 90px;
-    }
-    .logos_WDSF,
-    .logos_AUDSF {
-        float: left;
-        width: 90px;
-        height: auto;
-        margin-right: 3%;
-    }
-    .logos_AUDSF {
-        padding-top: 1%;
-        margin-left: 3%;
-    }
-    .logos_WDSF {
-        margin-top: 3%;
-        margin-left: 6%;
     }
     sl__news {
         width: 120%;
@@ -447,12 +340,4 @@
     .upper-header p {
         font-size: 11px;
     }
-    .affix {
-    top: 0;
-    width: 110%;
-    left: -10%;
-    padding-left: 24%;
-    position: fixed;
-    z-index: 9999;
-}
 }
