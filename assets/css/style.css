@@ -54,6 +54,20 @@ h3:after {
     background-color: red;
 }
 
+.allfordance {
+    overflow: hidden;
+    background: #f4f4f4;
+    padding: 1%;
+}
+
+.allfordance img {
+    width: 60px;
+    height: auto;
+}
+
+.allfordance p {
+    font-size: 16px;
+}
 
 /*------------------------------------- SOCIAL ICONS -----------------------------------*/
 
@@ -298,7 +312,7 @@ h3:after {
 footer {
     color: #efefef;
     background-color: #0d0d0d;
-    padding: 12px 0;
+    padding: 12px 0 5px 0;
     border-top: 1px solid #000;
 }
 
