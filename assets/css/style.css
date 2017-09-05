@@ -69,6 +69,11 @@ h3:after {
     font-size: 16px;
 }
 
+.grand_prix {
+    font-family: 'Mr Bedfort', cursive;
+}
+
+
 /*------------------------------------- SOCIAL ICONS -----------------------------------*/
 
 
@@ -158,7 +163,7 @@ h3:after {
 }
 
 .fa {
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 20px !important;
     width: 30px;
     text-align: center;
@@ -462,4 +467,164 @@ footer {
 
 .nav-stacked p {
     font-size: 17px;
+}
+
+
+/* --------------------------------------- REGISTER FORM ----------------------------------------*/
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: none;
+}
+
+.popupContainer {
+    position: absolute;
+    width: 700px;
+    height: auto;
+    left: 45%;
+    top: 60px;
+    background: #FFF;
+}
+
+#modal_trigger {
+    margin: 30px -15px;
+    width: 120px;
+    display: block;
+    /* border: 1px solid #DDD;
+    border-radius: 4px; */
+}
+
+#modal_trigger p {
+    /* margin: auto 5px; */
+    color: #FF0000;
+}
+
+#modal_trigger:hover {
+    text-decoration: none;
+}
+
+#modal {
+    display: none;
+}
+
+.btn_send {
+    background: #ff0000;
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.btn_send:hover {
+    background: #403c3c;
+    color: #FFF;
+}
+
+/* .form-message {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.success {
+    background-color: #25BF48;
+}
+
+.error {
+    background-color: #D43436;
+} */
+
+/* Popup Styles*/
+
+.popupHeader {
+    font-size: 16px;
+    /* text-transform: uppercase; */
+    color: #000000;
+}
+
+.popupHeader {
+    background: #F4F4F2;
+    position: relative;
+    padding: 10px 20px;
+    border-bottom: 1px solid #DDD;
+    font-weight: bold;
+}
+
+.popupHeader .modal_close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px;
+    background: #E4E4E2;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 18px;
+    height: 100%;
+}
+
+.popupBody {
+    padding: 20px;
+}
+
+.centeredText {
+    text-align: center;
+    margin: 20px 0;
+    clear: both;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+
+.action_btns {
+    clear: both;
+    overflow: hidden;
+}
+
+.action_btns a {
+    display: block;
+}
+
+
+/* User Register Form */
+
+.user_register {
+    display: none;
+}
+
+.user_register label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user_register input[type="text"],
+.user_register input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #DDD;
+    color: #666;
+}
+
+.user_register input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+.affix_send {
+    bottom: -10px;
+    width: 110%;
+    left: -10%;
+    padding-left: 35%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.affix_send+.container-fluid {
+    padding-top: 100px;
+    padding-left: 150px;
 }

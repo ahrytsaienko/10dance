@@ -8,17 +8,16 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 482,
                 settings: 'slick'
-    },
+            },
             {
                 breakpoint: 481,
                 settings: 'unslick'
-      },
+            },
 
-      ]
+        ]
     });
 });
 
@@ -129,4 +128,18 @@ $(document).ready(function () {
     PDFObject.embed("/assets/pdf/rules/dance-inf.pdf", "#dance-inf", options);
     PDFObject.embed("/assets/pdf/rules/clothes-inf.pdf", "#clothes-inf", options);
 
+});
+
+// Form "Write to us"
+// Plugin options and our code
+$("#modal_trigger").leanModal({
+    top: 100,
+    overlay: 0.6,
+    closeButton: ".modal_close"
+});
+
+// Calling Register Form
+$("#modal_trigger").click(function () {
+    $(".user_register").show();
+    return true;
 });
