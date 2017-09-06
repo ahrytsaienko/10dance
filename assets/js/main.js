@@ -130,16 +130,16 @@ $(document).ready(function () {
 
 });
 
-// Form "Write to us"
-// Plugin options and our code
-$("#modal_trigger").leanModal({
-    top: 100,
-    overlay: 0.6,
-    closeButton: ".modal_close"
-});
+// // Form "Write to us"
+// // Plugin options and our code
+// $("#modal_trigger").leanModal({
+//     top: 100,
+//     overlay: 0.6,
+//     closeButton: ".modal_close"
+// });
 
-// Calling Register Form
-$("#modal_trigger").click(function () {
-    $(".user_register").show();
-    return true;
-});
+// // Calling Register Form
+// $("#modal_trigger").click(function () {
+//     $(".user_register").show();
+//     return true;
+// });

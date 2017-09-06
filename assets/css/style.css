@@ -472,41 +472,15 @@ footer {
 
 /* --------------------------------------- REGISTER FORM ----------------------------------------*/
 
-#lean_overlay {
-    position: fixed;
-    z-index: 100;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    background: #000;
-    display: none;
-}
-
-.popupContainer {
-    position: absolute;
-    width: 700px;
-    height: auto;
-    left: 45%;
-    top: 60px;
-    background: #FFF;
-}
-
-#modal_trigger {
-    margin: 30px -15px;
+.modal_trigger {
+    margin: 25px -15px;
     width: 120px;
     display: block;
-    /* border: 1px solid #DDD;
-    border-radius: 4px; */
+    z-index: 9999;
 }
 
-#modal_trigger p {
-    /* margin: auto 5px; */
-    color: #FF0000;
-}
-
-#modal_trigger:hover {
-    text-decoration: none;
+.modal-header {
+    background-color: #d43f3a;
 }
 
 #modal {
@@ -514,106 +488,17 @@ footer {
 }
 
 .btn_send {
-    background: #ff0000;
-    color: #FFF;
-    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
-.btn_send:hover {
-    background: #403c3c;
-    color: #FFF;
-}
 
-/* .form-message {
-    width: 70%;
-    margin: 0 auto;
-    padding: 10px;
-    border-radius: 3px;
-    margin-bottom: 20px;
-}
-
-.success {
+/* .success {
     background-color: #25BF48;
 }
 
 .error {
     background-color: #D43436;
-} */
-
-/* Popup Styles*/
-
-.popupHeader {
-    font-size: 16px;
-    /* text-transform: uppercase; */
-    color: #000000;
-}
-
-.popupHeader {
-    background: #F4F4F2;
-    position: relative;
-    padding: 10px 20px;
-    border-bottom: 1px solid #DDD;
-    font-weight: bold;
-}
-
-.popupHeader .modal_close {
-    position: absolute;
-    right: 0;
-    top: 0;
-    padding: 10px 15px;
-    background: #E4E4E2;
-    cursor: pointer;
-    color: #aaa;
-    font-size: 18px;
-    height: 100%;
-}
-
-.popupBody {
-    padding: 20px;
-}
-
-.centeredText {
-    text-align: center;
-    margin: 20px 0;
-    clear: both;
-    overflow: hidden;
-    text-transform: uppercase;
-}
-
-.action_btns {
-    clear: both;
-    overflow: hidden;
-}
-
-.action_btns a {
-    display: block;
-}
-
-
-/* User Register Form */
-
-.user_register {
-    display: none;
-}
-
-.user_register label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-.user_register input[type="text"],
-.user_register input[type="email"] {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #DDD;
-    color: #666;
-}
-
-.user_register input[type="checkbox"] {
-    float: left;
-    margin-right: 5px;
-}
+}  */
 
 .affix_send {
     bottom: -10px;
@@ -624,7 +509,39 @@ footer {
     z-index: 9999;
 }
 
-.affix_send+.container-fluid {
+.affix_send+.container {
     padding-top: 100px;
     padding-left: 150px;
+}
+
+#slideout {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 10000;
+}
+
+#slideout_inner {
+    position: fixed;
+    top: 80px;
+    right: -600px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 10000;
+}
+
+#slideout:hover {
+    right: 250px;
+    z-index: 10000;
+}
+
+#slideout:hover #slideout_inner {
+    right: -100px;
+    z-index: 10000;
 }
