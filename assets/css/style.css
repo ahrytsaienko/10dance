@@ -415,7 +415,7 @@ footer {
 
 .news__hidden,
 .news-text-format {
-    width: 550px !important;
+    width: 100%;
     height: auto !important;
 }
 
