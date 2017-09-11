@@ -1,5 +1,5 @@
 // SLICK MAIN PAGE
-$(document).ready(function () {
+$(document).ready(() => {
     $('.sl').slick({
         autoplay: true,
         arrows: false,
@@ -8,23 +8,22 @@ $(document).ready(function () {
         slidesToShow: 2,
         slidesToScroll: 2,
         infinite: true,
-        responsive: [
-            {
+        responsive: [{
                 breakpoint: 482,
                 settings: 'slick'
-    },
+            },
             {
                 breakpoint: 481,
                 settings: 'unslick'
-      },
+            },
 
-      ]
+        ]
     });
 });
 
 
 // SLICK CONTACTS
-$(document).ready(function () {
+$(document).ready(() => {
     $('.slick_contacts').slick({
         autoplay: true,
         dots: true
@@ -32,9 +31,8 @@ $(document).ready(function () {
 });
 
 
-
 // MAP
-$(function () {
+$(() => {
     function initMap() {
         var arr_maps, location, mapObject, mapCanvas, mapOption, map, marker;
 
@@ -74,10 +72,9 @@ $(function () {
 });
 
 
-
 // NEWS
 // Slick block for news page.
-$(document).ready(function () {
+$(document).ready(() => {
     var slickClassName;
 
     $('.news__hidden').hide();
@@ -92,9 +89,8 @@ $(document).ready(function () {
 });
 
 
-
 // NEWS. Отборы по категориям, тегам.
-$(document).ready(function () {
+$(document).ready(() => {
     var newsBlock, index, searchClass, trigger;
     $('.hide-event').click(function () {
         newsBlock = $('.news');
@@ -113,14 +109,12 @@ $(document).ready(function () {
         if (trigger === false) {
             $(newsBlock).show();
         }
-
     });
 });
 
 
-
 // RULES
-$(document).ready(function () {
+$(document).ready(() => {
     var options = {
         height: "1000px"
     }

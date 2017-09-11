@@ -54,6 +54,25 @@ h3:after {
     background-color: red;
 }
 
+.allfordance {
+    overflow: hidden;
+    background: #f4f4f4;
+    padding: 1%;
+}
+
+.allfordance img {
+    width: 60px;
+    height: auto;
+}
+
+.allfordance p {
+    font-size: 16px;
+}
+
+.grand_prix {
+    font-family: 'Mr Bedfort', cursive;
+}
+
 
 /*------------------------------------- SOCIAL ICONS -----------------------------------*/
 
@@ -144,7 +163,7 @@ h3:after {
 }
 
 .fa {
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 20px !important;
     width: 30px;
     text-align: center;
@@ -298,7 +317,7 @@ h3:after {
 footer {
     color: #efefef;
     background-color: #0d0d0d;
-    padding: 12px 0;
+    padding: 12px 0 5px 0;
     border-top: 1px solid #000;
 }
 
@@ -396,7 +415,7 @@ footer {
 
 .news__hidden,
 .news-text-format {
-    width: 550px !important;
+    width: 100%;
     height: auto !important;
 }
 
@@ -448,4 +467,81 @@ footer {
 
 .nav-stacked p {
     font-size: 17px;
+}
+
+
+/* --------------------------------------- REGISTER FORM ----------------------------------------*/
+
+.modal_trigger {
+    margin: 25px -15px;
+    width: 120px;
+    display: block;
+    z-index: 9999;
+}
+
+.modal-header {
+    background-color: #d43f3a;
+}
+
+#modal {
+    display: none;
+}
+
+.btn_send {
+    margin-left: 10px;
+}
+
+
+/* .success {
+    background-color: #25BF48;
+}
+
+.error {
+    background-color: #D43436;
+}  */
+
+.affix_send {
+    bottom: -10px;
+    width: 110%;
+    left: -10%;
+    padding-left: 35%;
+    position: fixed;
+    z-index: 9999;
+}
+
+.affix_send+.container {
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+#slideout {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 10000;
+}
+
+#slideout_inner {
+    position: fixed;
+    top: 80px;
+    right: -600px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 10000;
+}
+
+#slideout:hover {
+    right: 250px;
+    z-index: 10000;
+}
+
+#slideout:hover #slideout_inner {
+    right: -100px;
+    z-index: 10000;
 }

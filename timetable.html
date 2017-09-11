@@ -115,6 +115,18 @@
         </nav>
     </div>
 
+    <div id="slideout">
+        <img src="assets/img/facebook.jpg" alt="Facebook" />
+        <div id="slideout_inner">
+            <div class="news_facebook">
+                <iframe class="img-responsive" src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fbousdanceclub&width=600&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=435"
+                    scrolling="yes" frameborder="0" style="border:none; overflow:hidden; width:600px; height:450px; background: white; float:left; "
+                    allowTransparency="true">
+                </iframe>
+            </div>
+        </div>
+    </div>  
+
     <!--/////////////////////////////////////////////////// END OF HEADER //////////////////////////////////////////////////////-->
 
     <div class="container">
@@ -129,7 +141,7 @@
                         <th class="danger">Вівторок</th>
                         <th class="success">Середа</th>
                         <th class="warning">Четверг</th>
-                        <th class="info">П'ятниця</th>
+                        <th class="info">П'ятниця (в розкладі можливі зміни протягом вересня)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -138,35 +150,35 @@
                         <td></td>
                         <td>14:30 - 15:15 Початківці (1-2 р.н.)</td>
                         <td></td>
-                        <td>15:45 - 16:30 Індив. зан.</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td>15:30 - 16:15 Індив. зан.</td>
                         <td></td>
                         <td>15:30 - 16:15 Індив. зан.</td>
+                        <td></td>
+                        <td>15:45 - 16:30 Індив. зан.</td>
+                    </tr>
+                    <tr>
+                        <td>16:30 - 17:30 Мол. Спорт група</td>
+                        <td></td>
+                        <td>16:30 - 17:30 Мол. Спорт група</td>
                         <td></td>
                         <td>16:30 - 17:15 Індив. зан.</td>
                     </tr>
                     <tr>
-                        <td>16:30 - 17:30 Мол. Спорт група</td>
-                        <td></td>
-                        <td>16:30 - 17:30 Мол. Спорт група</td>
-                        <td></td>
-                        <td>18:00 - 18:45 Індив. зан.</td>
-                    </tr>
-                    <tr>
                         <td>17:30 - 18:15 Індив. зан.</td>
                         <td></td>
                         <td>17:30 - 18:15 Індив. зан.</td>
                         <td></td>
-                        <td>18:00 - 18:45 Індив. зан.</td>
+                        <td>17:30 - 19:00 Практика Мол + Спорт</td>
                     </tr>
                     <tr>
                         <td>18:30 - 20:00 Спорт група</td>
                         <td></td>
                         <td>18:30 - 20:00 Спорт група</td>
                         <td></td>
-                        <td>19:00 - 21:00 Практика Мол + Спорт</td>
+                        <td></td>
                     </tr>
                 </tbody>
             </table>
@@ -189,24 +201,45 @@
                 <tbody>
                     <tr>
                         <td></td>
-                        <td>16:00 - 16:45 Початківці</td>
+                        <td>13:30 - 14:15 Індив. зан.</td>
                         <td></td>
-                        <td>16:00 - 16:45 Початківці</td>
+                        <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>17:00 - 18:00 Молодша група</td>
+                        <td>15:15 - 16:00 Індив. зан.</td>
                         <td></td>
-                        <td>17:00 - 18:00 Молодша група</td>
-                        <td>17:00 - 18:00 Молодша група</td>
+                        <td>15:15 - 16:00 Індив. зан.</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td></td>
-                        <td>18:00 - 19:00 Старша група</td>
+                        <td>16:00 - 16:45 Початківці</td>
                         <td></td>
-                        <td>18:00 - 19:00 Старша група</td>
-                        <td>18:00 - 19:00 Старша група</td>
+                        <td></td>
+                        <td>16:00 - 16:45 Початківці</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>16:45 - 17:30 Індив. зан.</td>
+                        <td></td>
+                        <td></td>
+                        <td>16:45 - 17:30 Індив. зан.</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>17:30 - 18:30 Молодша група</td>
+                        <td></td>
+                        <td>17:30 - 18:30 Молодша група</td>
+                        <td>17:30 - 18:30 Молодша група</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>18:30 - 19:30 Старша група</td>
+                        <td></td>
+                        <td>18:30 - 19:30 Старша група</td>
+                        <td>18:30 - 19:30 Старша група</td>
                     </tr>
                 </tbody>
             </table>
@@ -235,11 +268,11 @@
 
     <!--///////////////////////////////////////////////// SCRIPTS ////////////////////////////////////////////////////-->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.leanModal.min.js"></script>
     <script src="assets/slick/slick.min.js"></script>
-    <script src="assets/js/sl.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALbrIn4727CclnQIfZHuY3pqgw3lJozRU"></script>
-    <script src="assets/js/map.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="masonry.pkgd.min.js"></script>
 </body>
